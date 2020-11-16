@@ -1,0 +1,26 @@
+{
+  "name": "@sakuli/ocr",
+  "version": "2.4.0",
+  "description": "Enterprise OCR extension for Sakuli",
+  "main": "dist/index.js",
+  "typings": "dist",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": ["sakuliPreset"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//sakuli/sakuli-ocr.git"
+  },
+  "author": {
+    "name": "Sven Hettwer",
+    "email": "Sven.Hettwer@consol.de",
+  },
+  "contributors": [
+    "Tim Keiner <tim.keiner@consol.de>",
+    "Simon Hofmann <simon.hofmann@consol.de>",
+    "Sven Hettwer <sven.hettwer@consol.de>",
+    "Cliff Le Van <cliff.le.van@consol.de>"
+  ]
+}
