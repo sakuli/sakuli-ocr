@@ -6,7 +6,7 @@
   "typings": "dist/index.d.js",
   "scripts": {
     "publish:next": "npm run obfuscate && npm run copy && npm run version:next && npm publish --access restricted --tag next",
-    "version:next": "npm version --no-git-tag-version prerelease --preid next",
+    "version:next": "npm version --no-git-tag-version $(npm --no-git-tag version patch)-next.$(date +%s)",
     "copy": "node move-files.js ./out ./dist",
     "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
     "test": "jest",
