@@ -1,4 +1,4 @@
-name: release
+name: release-version
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - v*.*.*
 
 jobs:
-  release:
-    name: release
+  release-version:
+    name: release-version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -9,8 +9,8 @@ on:
   pull_request:
 
 jobs:
-  test:
-    name: test
+  ci:
+    name: ci
     runs-on: ubuntu-latest
     strategy:
       matrix:
