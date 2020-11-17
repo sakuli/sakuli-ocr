@@ -8,17 +8,16 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-latest
-
-      steps:
-        - uses: actions/checkout@v2
-        - name: Use Node.js 14
-          uses: actions/setup-node@v1
-          with:
-            node-version: 14
-            registry-url: https://registry.npmjs.org/
-        - run: npm install
-        - run: npm run build
-        - run: npm test
-        - run: npm run publish:next
-         env:
-           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - run: npm run publish:next
+       env:
+         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
