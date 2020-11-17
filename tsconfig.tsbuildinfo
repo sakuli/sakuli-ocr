@@ -650,7 +650,7 @@
         "signature": "0eca6ae9eae648e167b316ef39da9978f2020a00db04d35ffb8131dcc65f8602"
       },
       "./src/index.ts": {
-        "version": "721e078b8b420f753aa2aec9c28831d633fbe876fb04f930a379233aa2a7500e",
+        "version": "431a383d9ff3b29b6ece5d6239cdb5f4952badb4da4fc99795c5da14dd2ff1da",
         "signature": "3b9b88cc38e095f2cac1fd5729ed5ef13d9abcc0f98be30de731509660397142"
       },
       "./node_modules/@types/minimatch/index.d.ts": {

@@ -1,0 +1,26 @@
+name: release
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  release:
+    name: release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - name: Set SAKULI_VERSION according to tag
+        run: echo "SAKULI_VERSION=${GITHUB_REF#refs/*/v}" >> $GITHUB_ENV
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - run: SAKULI_VERSION=${SAKULI_VERSION} npm run publish:release
+        env:
+         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
