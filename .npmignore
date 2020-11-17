@@ -1,0 +1,12 @@
+tsconfig.json
+obfuscate.js
+.vscode
+.idea
+coverage
+.build
+tsconfig.tsbuildinfo
+lerna-debug.log
+src
+.github
+out
+move-files.js
