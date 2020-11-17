@@ -10,7 +10,7 @@
     "version:next": "npm version --no-git-tag-version $(npm --no-git-tag version patch)-next.$(date +%s)",
     "copy": "node move-files.js ./out ./dist",
     "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "build": "tsc"
   },
   "keywords": [
