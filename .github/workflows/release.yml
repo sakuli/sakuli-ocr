@@ -22,6 +22,7 @@ jobs:
       - run: lerna run build
       - run: lerna run test
       - run: lerna run build:release
+      - run: lerna version --no-git-tag-version --no-push -y --exact ${SAKULI_VERSION}
       - run: npm run lerna:publish
         env:
          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
