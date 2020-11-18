@@ -2,3 +2,5 @@ src
 tsconfig.json
 tsconfig.tsbuildinfo
 out
+obfuscate.js
+move-files.js

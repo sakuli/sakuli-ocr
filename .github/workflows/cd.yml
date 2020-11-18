@@ -16,8 +16,9 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npm run build
-      - run: npm test
-      - run: npm run publish:next
+      - run: lerna run build
+      - run: lerna run test
+      - run: lerna run build:release
+      - run: npm run lerna:publish-next
         env:
          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

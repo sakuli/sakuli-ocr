@@ -19,8 +19,9 @@ jobs:
       - name: Set SAKULI_VERSION according to tag
         run: echo "SAKULI_VERSION=${GITHUB_REF#refs/*/v}" >> $GITHUB_ENV
       - run: npm install
-      - run: npm run build
-      - run: npm test
-      - run: SAKULI_VERSION=${SAKULI_VERSION} npm run publish:release
+      - run: lerna run build
+      - run: lerna run test
+      - run: lerna run build:release
+      - run: npm run lerna:publish
         env:
          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
