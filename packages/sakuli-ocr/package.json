@@ -3,7 +3,7 @@
   "version": "2.4.0",
   "description": "Enterprise OCR extension for Sakuli",
   "main": "dist/index.js",
-  "typings": "dist/index.d.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "copy": "node move-files.js ./out ./dist",
     "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
@@ -29,11 +29,14 @@
     "Cliff Le Van <cliff.le.van@consol.de>"
   ],
   "dependencies": {
-    "@sakuli/core": "2.4.0"
+    "@sakuli/core": "2.4.0",
+    "@sakuli/legacy": "2.4.0"
   },
   "devDependencies": {
     "@types/node": "12.12.34",
     "@types/jest": "26.0.15",
+    "@sakuli/legacy-types": "2.4.0",
+    "@types/selenium-webdriver": "4.0.10",
     "javascript-obfuscator": "2.8.1",
     "typescript": "3.8.3",
     "jest": "26.6.3",

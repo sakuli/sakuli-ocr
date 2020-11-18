@@ -1,0 +1,17 @@
+{
+  "name": "e2e",
+  "version": "2.4.0",
+  "description": "E2E test environment for @sakuli/ocr",
+  "author": "Sven Hettwer <sven.hettwer@consol.de>",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "sakuli run e2e-suite"
+  },
+  "dependencies": {
+    "@sakuli/cli": "2.4.0",
+    "@sakuli/legacy-types": "2.4.0",
+    "@sakuli/ocr": "2.4.0",
+    "typescript": "3.8.3"
+  }
+}
