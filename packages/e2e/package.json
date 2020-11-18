@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "scripts": {
-    "test": "sakuli run e2e-suite"
+    "test:e2e": "sakuli run e2e-suite"
   },
   "dependencies": {
     "@sakuli/cli": "2.4.0",
