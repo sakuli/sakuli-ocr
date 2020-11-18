@@ -12,6 +12,7 @@
     "@sakuli/cli": "2.4.0",
     "@sakuli/legacy-types": "2.4.0",
     "@sakuli/ocr": "2.4.0",
-    "typescript": "3.8.3"
+    "typescript": "3.8.3",
+    "chromedriver": "87.0.0"
   }
 }
