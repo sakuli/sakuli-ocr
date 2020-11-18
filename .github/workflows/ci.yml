@@ -25,3 +25,5 @@ jobs:
       - run: npx lerna run build
       - run: npx lerna run test
       - run: npx lerna run test:e2e
+        env:
+          SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
