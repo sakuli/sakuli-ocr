@@ -30,7 +30,9 @@
   ],
   "dependencies": {
     "@sakuli/core": "2.4.0",
-    "@sakuli/legacy": "2.4.0"
+    "@sakuli/legacy": "2.4.0",
+    "@nut-tree/nut-js": "next",
+    "tesseract.js": "^2.1.4"
   },
   "devDependencies": {
     "@types/node": "12.12.34",
@@ -41,6 +43,7 @@
     "typescript": "3.8.3",
     "jest": "26.6.3",
     "ts-jest": "26.4.4",
-    "fs-extra": "9.0.1"
+    "fs-extra": "9.0.1",
+    "sneer": "1.0.1"
   }
 }

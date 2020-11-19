@@ -881,7 +881,7 @@
         "version": "1c5b5fc95cfd6c0f789b9e403135432c1468cc48f655f768e585bf602f06cd32",
         "signature": "1c5b5fc95cfd6c0f789b9e403135432c1468cc48f655f768e585bf602f06cd32"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": {
         "version": "da8ada7616d8ebb1905e97e92a5db0bcdc4da039f4c7df5aac81836a2b102926",
         "signature": "da8ada7616d8ebb1905e97e92a5db0bcdc4da039f4c7df5aac81836a2b102926"
       },
@@ -889,119 +889,119 @@
         "version": "796db21bc511300fd571b3021c7f40f922489a4291503eef5771fb31ca082fab",
         "signature": "796db21bc511300fd571b3021c7f40f922489a4291503eef5771fb31ca082fab"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": {
         "version": "4473b7960f367e3440be86d14548c5a99d4ef359b1d70887c4238f0d05ce1a33",
         "signature": "4473b7960f367e3440be86d14548c5a99d4ef359b1d70887c4238f0d05ce1a33"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": {
         "version": "6f62386592274117e9f3df5da21d5cbbb7800ec4ac9532fe7707dcb0221a3adb",
         "signature": "6f62386592274117e9f3df5da21d5cbbb7800ec4ac9532fe7707dcb0221a3adb"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": {
         "version": "fb830f2f87656941d5872efd20a685eb40e015bfab23586e4db6e9318946870d",
         "signature": "fb830f2f87656941d5872efd20a685eb40e015bfab23586e4db6e9318946870d"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": {
         "version": "8ff381bfe5322e068a4381f629ce318b0cdcd5b2d054c15b4903bfcab5bdcb5c",
         "signature": "8ff381bfe5322e068a4381f629ce318b0cdcd5b2d054c15b4903bfcab5bdcb5c"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": {
         "version": "765059283f7858dc8fdb329c31111fde8d7c3f403d35e8713aadf064271b7bbf",
         "signature": "765059283f7858dc8fdb329c31111fde8d7c3f403d35e8713aadf064271b7bbf"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": {
         "version": "3edc388bf2ed8466f225ee3979e4e45595ee3d77f23735f08fc89ed2f5fd455c",
         "signature": "3edc388bf2ed8466f225ee3979e4e45595ee3d77f23735f08fc89ed2f5fd455c"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": {
         "version": "4e0700699ee55ea8301890842d371c37b2d6a359840a7505bd071bad092afbb8",
         "signature": "4e0700699ee55ea8301890842d371c37b2d6a359840a7505bd071bad092afbb8"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": {
         "version": "8dedfb868ac20b202d078c5a98e5fbf562638e9a981b6ec282de6d8add22c539",
         "signature": "8dedfb868ac20b202d078c5a98e5fbf562638e9a981b6ec282de6d8add22c539"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": {
         "version": "810e88584a9aa80ee66a277d1fad8f567844955f8d8293e8cfe74663ccf94bd6",
         "signature": "810e88584a9aa80ee66a277d1fad8f567844955f8d8293e8cfe74663ccf94bd6"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": {
         "version": "c8189f9cf777e1e82e1a0f9296ea8c9c46b834b8fbae1729dd0432585d5602a9",
         "signature": "c8189f9cf777e1e82e1a0f9296ea8c9c46b834b8fbae1729dd0432585d5602a9"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": {
         "version": "834c6e615f92ea0e3ab8b05d06d1919bcbdb53924cf879f012dbccadac5a7213",
         "signature": "834c6e615f92ea0e3ab8b05d06d1919bcbdb53924cf879f012dbccadac5a7213"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": {
         "version": "3202388fafd05e974e6ebf9836d1aaaf0240804b7dfc2e2f6cba95714ff32d4b",
         "signature": "3202388fafd05e974e6ebf9836d1aaaf0240804b7dfc2e2f6cba95714ff32d4b"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": {
         "version": "0d4fb5255b9429ac4bd3cdae8342aa255a8396069d34bc41d954c8df2413fadd",
         "signature": "0d4fb5255b9429ac4bd3cdae8342aa255a8396069d34bc41d954c8df2413fadd"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": {
         "version": "589437485c30bb3ff53f328d1db69e4b52cc2161d58f62e1dd0cfdb91b8479e5",
         "signature": "589437485c30bb3ff53f328d1db69e4b52cc2161d58f62e1dd0cfdb91b8479e5"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": {
         "version": "4233c6c15d1a9fd591863e753dd86b6ac72c5ffee0756f01578d3cf5423ba2cc",
         "signature": "4233c6c15d1a9fd591863e753dd86b6ac72c5ffee0756f01578d3cf5423ba2cc"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": {
         "version": "aaaa9828ef77be5f42217e27e8bedafe45429c7bbe64f5da719c8c71c8ce8a61",
         "signature": "aaaa9828ef77be5f42217e27e8bedafe45429c7bbe64f5da719c8c71c8ce8a61"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": {
         "version": "db4d2e0943f97fd154d70658c5011faf77cb4defb8d1a31323d683979a9b8187",
         "signature": "db4d2e0943f97fd154d70658c5011faf77cb4defb8d1a31323d683979a9b8187"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": {
         "version": "0017742c049ba0bb40f514bd6c1533c1f2b1c511995a9bba0ffd638790c5a478",
         "signature": "0017742c049ba0bb40f514bd6c1533c1f2b1c511995a9bba0ffd638790c5a478"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": {
         "version": "e6c21f177a062e2280b926313a666d25fa3df76ac3dc4c31eb726181f60971f1",
         "signature": "e6c21f177a062e2280b926313a666d25fa3df76ac3dc4c31eb726181f60971f1"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": {
         "version": "06e3ac457bc15b84697df1aa34cddaea0d584a4481d801089e28e74f6bb5dea1",
         "signature": "06e3ac457bc15b84697df1aa34cddaea0d584a4481d801089e28e74f6bb5dea1"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": {
         "version": "11f14c0e15108226d3e0e84130dfe0e8205391f3b0d33c64096deae0228beece",
         "signature": "11f14c0e15108226d3e0e84130dfe0e8205391f3b0d33c64096deae0228beece"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": {
         "version": "35aab878ffef4d2da65160f5d689f18283748ecd45098251db5309705be6b158",
         "signature": "35aab878ffef4d2da65160f5d689f18283748ecd45098251db5309705be6b158"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": {
         "version": "25894eab757efc6248d29e28d0b95d6eb380d48600c367e2150294d54b7e03ec",
         "signature": "25894eab757efc6248d29e28d0b95d6eb380d48600c367e2150294d54b7e03ec"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": {
         "version": "1680aad59b6946208d5de95922b3d813456a260b0ea163ccd7c2fa199d41a8d9",
         "signature": "1680aad59b6946208d5de95922b3d813456a260b0ea163ccd7c2fa199d41a8d9"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": {
         "version": "be54f5485e52e86d6b6d6c8e4bbb5103b1c0c2e7711e7419ac08492cee716820",
         "signature": "be54f5485e52e86d6b6d6c8e4bbb5103b1c0c2e7711e7419ac08492cee716820"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": {
         "version": "aa018212773cb5659daf017cb6f5ef6a4a5e154675f4f9a991d2a04a55ee2c55",
         "signature": "aa018212773cb5659daf017cb6f5ef6a4a5e154675f4f9a991d2a04a55ee2c55"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": {
         "version": "2e4eb8034903a2fd8278ce376314c7910075dce31cd5ab785a71bccdd078f369",
         "signature": "2e4eb8034903a2fd8278ce376314c7910075dce31cd5ab785a71bccdd078f369"
       },
-      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": {
         "version": "edee7c9bd8bcef55159e2217ddd49e11cbba19635fc59711067c8b101726990a",
         "signature": "edee7c9bd8bcef55159e2217ddd49e11cbba19635fc59711067c8b101726990a"
       },
-      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": {
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts": {
         "version": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684",
         "signature": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684"
       },
@@ -1165,13 +1165,133 @@
         "version": "40e0f568e2208e07e15aefa00fb47293557f2365fd1bfe807e31b01d40309be3",
         "signature": "40e0f568e2208e07e15aefa00fb47293557f2365fd1bfe807e31b01d40309be3"
       },
+      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": {
+        "version": "4473b7960f367e3440be86d14548c5a99d4ef359b1d70887c4238f0d05ce1a33",
+        "signature": "4473b7960f367e3440be86d14548c5a99d4ef359b1d70887c4238f0d05ce1a33"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": {
+        "version": "6f62386592274117e9f3df5da21d5cbbb7800ec4ac9532fe7707dcb0221a3adb",
+        "signature": "6f62386592274117e9f3df5da21d5cbbb7800ec4ac9532fe7707dcb0221a3adb"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": {
+        "version": "fb830f2f87656941d5872efd20a685eb40e015bfab23586e4db6e9318946870d",
+        "signature": "fb830f2f87656941d5872efd20a685eb40e015bfab23586e4db6e9318946870d"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": {
+        "version": "851992a64a9f5d1e0efb3650cd2afd189a1a99997ba00d788ed7d7e26c47c996",
+        "signature": "851992a64a9f5d1e0efb3650cd2afd189a1a99997ba00d788ed7d7e26c47c996"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": {
+        "version": "765059283f7858dc8fdb329c31111fde8d7c3f403d35e8713aadf064271b7bbf",
+        "signature": "765059283f7858dc8fdb329c31111fde8d7c3f403d35e8713aadf064271b7bbf"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": {
+        "version": "3edc388bf2ed8466f225ee3979e4e45595ee3d77f23735f08fc89ed2f5fd455c",
+        "signature": "3edc388bf2ed8466f225ee3979e4e45595ee3d77f23735f08fc89ed2f5fd455c"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": {
+        "version": "4e0700699ee55ea8301890842d371c37b2d6a359840a7505bd071bad092afbb8",
+        "signature": "4e0700699ee55ea8301890842d371c37b2d6a359840a7505bd071bad092afbb8"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": {
+        "version": "8dedfb868ac20b202d078c5a98e5fbf562638e9a981b6ec282de6d8add22c539",
+        "signature": "8dedfb868ac20b202d078c5a98e5fbf562638e9a981b6ec282de6d8add22c539"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": {
+        "version": "810e88584a9aa80ee66a277d1fad8f567844955f8d8293e8cfe74663ccf94bd6",
+        "signature": "810e88584a9aa80ee66a277d1fad8f567844955f8d8293e8cfe74663ccf94bd6"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": {
+        "version": "c8189f9cf777e1e82e1a0f9296ea8c9c46b834b8fbae1729dd0432585d5602a9",
+        "signature": "c8189f9cf777e1e82e1a0f9296ea8c9c46b834b8fbae1729dd0432585d5602a9"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": {
+        "version": "834c6e615f92ea0e3ab8b05d06d1919bcbdb53924cf879f012dbccadac5a7213",
+        "signature": "834c6e615f92ea0e3ab8b05d06d1919bcbdb53924cf879f012dbccadac5a7213"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": {
+        "version": "3202388fafd05e974e6ebf9836d1aaaf0240804b7dfc2e2f6cba95714ff32d4b",
+        "signature": "3202388fafd05e974e6ebf9836d1aaaf0240804b7dfc2e2f6cba95714ff32d4b"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": {
+        "version": "0d4fb5255b9429ac4bd3cdae8342aa255a8396069d34bc41d954c8df2413fadd",
+        "signature": "0d4fb5255b9429ac4bd3cdae8342aa255a8396069d34bc41d954c8df2413fadd"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": {
+        "version": "da8ada7616d8ebb1905e97e92a5db0bcdc4da039f4c7df5aac81836a2b102926",
+        "signature": "da8ada7616d8ebb1905e97e92a5db0bcdc4da039f4c7df5aac81836a2b102926"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": {
+        "version": "589437485c30bb3ff53f328d1db69e4b52cc2161d58f62e1dd0cfdb91b8479e5",
+        "signature": "589437485c30bb3ff53f328d1db69e4b52cc2161d58f62e1dd0cfdb91b8479e5"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": {
+        "version": "4233c6c15d1a9fd591863e753dd86b6ac72c5ffee0756f01578d3cf5423ba2cc",
+        "signature": "4233c6c15d1a9fd591863e753dd86b6ac72c5ffee0756f01578d3cf5423ba2cc"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": {
+        "version": "aaaa9828ef77be5f42217e27e8bedafe45429c7bbe64f5da719c8c71c8ce8a61",
+        "signature": "aaaa9828ef77be5f42217e27e8bedafe45429c7bbe64f5da719c8c71c8ce8a61"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": {
+        "version": "db4d2e0943f97fd154d70658c5011faf77cb4defb8d1a31323d683979a9b8187",
+        "signature": "db4d2e0943f97fd154d70658c5011faf77cb4defb8d1a31323d683979a9b8187"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": {
+        "version": "0017742c049ba0bb40f514bd6c1533c1f2b1c511995a9bba0ffd638790c5a478",
+        "signature": "0017742c049ba0bb40f514bd6c1533c1f2b1c511995a9bba0ffd638790c5a478"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": {
+        "version": "e6c21f177a062e2280b926313a666d25fa3df76ac3dc4c31eb726181f60971f1",
+        "signature": "e6c21f177a062e2280b926313a666d25fa3df76ac3dc4c31eb726181f60971f1"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": {
+        "version": "06e3ac457bc15b84697df1aa34cddaea0d584a4481d801089e28e74f6bb5dea1",
+        "signature": "06e3ac457bc15b84697df1aa34cddaea0d584a4481d801089e28e74f6bb5dea1"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": {
+        "version": "11f14c0e15108226d3e0e84130dfe0e8205391f3b0d33c64096deae0228beece",
+        "signature": "11f14c0e15108226d3e0e84130dfe0e8205391f3b0d33c64096deae0228beece"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": {
+        "version": "35aab878ffef4d2da65160f5d689f18283748ecd45098251db5309705be6b158",
+        "signature": "35aab878ffef4d2da65160f5d689f18283748ecd45098251db5309705be6b158"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": {
+        "version": "25894eab757efc6248d29e28d0b95d6eb380d48600c367e2150294d54b7e03ec",
+        "signature": "25894eab757efc6248d29e28d0b95d6eb380d48600c367e2150294d54b7e03ec"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": {
+        "version": "1680aad59b6946208d5de95922b3d813456a260b0ea163ccd7c2fa199d41a8d9",
+        "signature": "1680aad59b6946208d5de95922b3d813456a260b0ea163ccd7c2fa199d41a8d9"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": {
+        "version": "be54f5485e52e86d6b6d6c8e4bbb5103b1c0c2e7711e7419ac08492cee716820",
+        "signature": "be54f5485e52e86d6b6d6c8e4bbb5103b1c0c2e7711e7419ac08492cee716820"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": {
+        "version": "aa018212773cb5659daf017cb6f5ef6a4a5e154675f4f9a991d2a04a55ee2c55",
+        "signature": "aa018212773cb5659daf017cb6f5ef6a4a5e154675f4f9a991d2a04a55ee2c55"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": {
+        "version": "2e4eb8034903a2fd8278ce376314c7910075dce31cd5ab785a71bccdd078f369",
+        "signature": "2e4eb8034903a2fd8278ce376314c7910075dce31cd5ab785a71bccdd078f369"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": {
+        "version": "edee7c9bd8bcef55159e2217ddd49e11cbba19635fc59711067c8b101726990a",
+        "signature": "edee7c9bd8bcef55159e2217ddd49e11cbba19635fc59711067c8b101726990a"
+      },
+      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": {
+        "version": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684",
+        "signature": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684"
+      },
       "./src/getTextFromRegion.ts": {
-        "version": "0b5029f81f5eeebc0e76817a87883326857baee10992342c7b1029daf7272223",
-        "signature": "1f350df3f4d9ad4bad6ba162de7988f021874090af0c08572b71f02e28a56e34"
+        "version": "151292110937ab790324c252ae874cf7a2d621de1d766341ad3d2b2041343e8d",
+        "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
       "./src/OcrContext.ts": {
-        "version": "3255b69bdc4de253df3e771bf7c10ffed2563b20b09d7157dbc5b598ef146b69",
-        "signature": "22ace3be46701b3fe78df755f8ddd1eea4d0182995fb3714f3f113da45709add"
+        "version": "8fd618767a1615c267928a0d38a92792afb4542088136c87e20520fa994e76ef",
+        "signature": "c540f7f868866869130393b4e96826696c096f8bf6a8a0efb9343d317c3101dd"
       },
       "./src/index.ts": {
         "version": "6cecf626fdb319af13f0c8aec88a205bd1cce4327427c3f45421b05142ebba8a",
@@ -3047,261 +3167,261 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@sakuli/legacy/dist/context/common/button.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@sakuli/legacy/dist/context/common/key.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3591,7 +3711,7 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/@sakuli/legacy/dist/context/common/actions/shortcut.function.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3653,8 +3773,257 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/getTextFromRegion.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/path.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3876,7 +4245,121 @@
       ]
     },
     "exportedModulesMap": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -5076,7 +5559,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -5089,241 +5572,241 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": [
-        "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-        "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts": [
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -5674,6 +6157,252 @@
         "./node_modules/@sakuli/core/dist/sakuli-preset-provider.interface.d.ts",
         "./node_modules/@sakuli/legacy/dist/context/index.d.ts",
         "./node_modules/@sakuli/legacy/dist/loader/legacy-loader.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@nut-tree/nut-js/dist/index.d.ts": [
+        "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+        "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -6096,37 +6825,37 @@
       "./node_modules/@sakuli/legacy/dist/context/sahi/assertion/assertion-api.interface.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/sahi/assertion/index.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/sahi/sahi-api.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/common/button.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
-      "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
+      "./node_modules/@sakuli/legacy/node_modules/@nut-tree/nut-js/dist/index.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/common/key.class.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/common/region/region.interface.d.ts",
       "./node_modules/@sakuli/legacy/dist/context/common/region/sakuli-region.class.d.ts",
@@ -6167,6 +6896,38 @@
       "./node_modules/@sakuli/legacy/dist/context/index.d.ts",
       "./node_modules/@sakuli/legacy/dist/loader/legacy-loader.class.d.ts",
       "./node_modules/@sakuli/legacy/dist/index.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/region.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/image.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-request.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/match-result.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/screen-action-provider.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/data-sink.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/opencv/finder.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/vision.adapter.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/file-type.enum.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/optionalsearchparameters.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/locationparameters.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/screen.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/assert.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/button.enum.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/key.enum.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/point.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/clipboard-action-provider.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/keyboard-action-provider.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/mouse-action-provider.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/provider/native/window-action-provider.interface.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/adapter/native.adapter.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/clipboard.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/keyboard.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/mouse.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/expect/jest.matcher.function.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/sleep.function.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/location.function.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
+      "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
+      "./src/OcrContext.ts",
+      "./src/index.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@types/babel__generator/index.d.ts",
       "./node_modules/@types/babel__traverse/index.d.ts",
@@ -6195,9 +6956,7 @@
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
-      "./src/getTextFromRegion.ts",
-      "./src/index.ts",
-      "./src/OcrContext.ts"
+      "./src/getTextFromRegion.ts"
     ]
   },
   "version": "3.8.3"
