@@ -11,7 +11,13 @@ export async function getTextFromRegion(region: Region): Promise<string>{
         await (<any>screen).vision.saveImage(regionImage, outputFilename);
     };
 
-    await regionCapture(new NutRegion(await region.getX() || 0,  await region.getY() || 0, await region.getW() || 0,  await region.getH() || 0),"ocr-screenshot.png");
+    await regionCapture(
+        new NutRegion(
+            await region.getX() || 0,
+            await region.getY() || 0,
+            await region.getW() || 0,
+            await region.getH() || 0),
+        "ocr-screenshot.png");
     const text = execSync(`tesseract ${join(process.cwd(), "ocr-screenshot.png")} stdout`)
     fs.unlinkSync(join(process.cwd(), "ocr-screenshot.png"))
     return Promise.resolve(text.toString())
