@@ -7,7 +7,7 @@
         await _navigateTo(url);
         await testCase.endOfStep("Navigate to sakuli website");
 
-        await env.setSimilarity(.97)
+        await env.setSimilarity(.96)
         const region = await screen.find("assets/lets-fry-text.png");
         await region.highlight(1)
         await _assertEqual(await _getTextFromRegion(region), "License Information\n\f")
