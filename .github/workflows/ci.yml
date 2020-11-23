@@ -11,7 +11,7 @@ on:
 jobs:
   ci:
     name: ci
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [10.x, 12.x, 14.x]
@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: install tesseract
+        run: apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
       - run: npm install
       - run: npx lerna run build
       - run: npx lerna run test
