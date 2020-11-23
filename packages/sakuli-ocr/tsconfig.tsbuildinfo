@@ -1286,16 +1286,20 @@
         "signature": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684"
       },
       "./src/getTextFromRegion.ts": {
-        "version": "45d81376cdac480c3c4bf48551198210a1bc67e8d4a6cce6a11f316354b8b139",
+        "version": "c5fa53a022f5bf89eb5fc07e80750b1b1b0f97f08d08ceacd4737dcb65c56239",
         "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
+      "./src/getRegionByText.ts": {
+        "version": "288a41d518cf45daf47392f0bc4cd0cd5c430a71a66bd1758987b968379c9c84",
+        "signature": "10e6a37862b4840391f7672cbc844f8f2c930dad57283ef58c6289b368be30ae"
+      },
       "./src/OcrContext.ts": {
-        "version": "8fd618767a1615c267928a0d38a92792afb4542088136c87e20520fa994e76ef",
-        "signature": "c540f7f868866869130393b4e96826696c096f8bf6a8a0efb9343d317c3101dd"
+        "version": "65e3f70690601e8ea5ca29c5ecb7cd5ed994f5073ec5949cd925cf452f1dd62a",
+        "signature": "3fd57d40b8e9599be33bcaeaa636a6f0bce9148691704bc8aff0adc2249e1ee3"
       },
       "./src/index.ts": {
-        "version": "6cecf626fdb319af13f0c8aec88a205bd1cce4327427c3f45421b05142ebba8a",
-        "signature": "0462a5d10c62975cb4052cfdb4122569f3ae252c68b121825926343aa5a97ad5"
+        "version": "814c6a0fac1a3fa737c4e72b4f4a18cfcb9122c7188e3b5f02c1ef5cc91369c8",
+        "signature": "6a969b23ea914a7317857abbeb43f7fdbcbceb88e1a8fc496499efbff262cf0c"
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
         "version": "cd5a5fd244fa901f9c331e45b833ea5a4efa162acdc129c6e52e5d74e924752b",
@@ -4033,10 +4037,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/getRegionByText.ts": [
+        "./node_modules/@sakuli/legacy/dist/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/OcrContext.ts": [
         "./node_modules/@sakuli/core/dist/runner/context-provider.interface.d.ts",
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
         "./src/getTextFromRegion.ts",
+        "./src/getRegionByText.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -4046,6 +4058,7 @@
         "./node_modules/@sakuli/core/dist/index.d.ts",
         "./src/OcrContext.ts",
         "./src/getTextFromRegion.ts",
+        "./src/getRegionByText.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -6421,13 +6434,17 @@
       "./src/getTextFromRegion.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts"
       ],
+      "./src/getRegionByText.ts": [
+        "./node_modules/@sakuli/legacy/dist/index.d.ts"
+      ],
       "./src/OcrContext.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
         "./node_modules/@sakuli/core/dist/runner/context-provider.interface.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@sakuli/core/dist/index.d.ts",
-        "./src/getTextFromRegion.ts"
+        "./src/getTextFromRegion.ts",
+        "./src/getRegionByText.ts"
       ],
       "./node_modules/@babel/types/lib/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -6573,6 +6590,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/@types/parse-json/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/@types/prettier/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -6608,12 +6631,6 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../../node_modules/@types/minimist/index.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/parse-json/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -6942,8 +6959,7 @@
       "./node_modules/@nut-tree/nut-js/dist/lib/movementtype.function.d.ts",
       "./node_modules/@nut-tree/nut-js/dist/lib/window.class.d.ts",
       "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
-      "./src/OcrContext.ts",
-      "./src/index.ts",
+      "./src/getTextFromRegion.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
       "./node_modules/@types/babel__generator/index.d.ts",
       "./node_modules/@types/babel__traverse/index.d.ts",
@@ -6965,6 +6981,7 @@
       "./node_modules/@types/jest/index.d.ts",
       "./node_modules/@types/minimatch/index.d.ts",
       "./node_modules/@types/normalize-package-data/index.d.ts",
+      "./node_modules/@types/parse-json/index.d.ts",
       "./node_modules/@types/prettier/index.d.ts",
       "./node_modules/@types/resolve/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
@@ -6972,8 +6989,9 @@
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
-      "./src/getTextFromRegion.ts",
-      "./node_modules/@types/parse-json/index.d.ts"
+      "./src/getRegionByText.ts",
+      "./src/OcrContext.ts",
+      "./src/index.ts"
     ]
   },
   "version": "3.8.3"
