@@ -16,7 +16,7 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - name: install tesseract
-        run: apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
+        run: sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
       - run: npm install
       - run: npx lerna run build
       - run: npx lerna run test

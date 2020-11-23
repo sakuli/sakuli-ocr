@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install tesseract
-        run: apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
+        run: sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
       - run: npm install
       - run: npx lerna run build
       - run: npx lerna run test

@@ -17,7 +17,7 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - name: install tesseract
-        run: apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
+        run: sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
       - name: Set SAKULI_VERSION according to tag
         run: echo "SAKULI_VERSION=${GITHUB_REF#refs/*/v}" >> $GITHUB_ENV
       - run: npm install
