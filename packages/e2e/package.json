@@ -9,8 +9,8 @@
     "test:e2e": "sakuli run e2e-suite"
   },
   "dependencies": {
-    "@sakuli/cli": "2.4.0",
-    "@sakuli/legacy-types": "2.4.0",
+    "@sakuli/cli": "next",
+    "@sakuli/legacy-types": "next",
     "@sakuli/ocr": "2.4.0",
     "typescript": "3.8.3",
     "chromedriver": "87.0.0"
