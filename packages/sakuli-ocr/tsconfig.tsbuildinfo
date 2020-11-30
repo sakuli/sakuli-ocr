@@ -1286,7 +1286,7 @@
         "signature": "36fb101677cbdca89b7cf0bdcbcf1b3860c2da2ee9bd815360d40ef9e8f7c684"
       },
       "./src/regionCapture.ts": {
-        "version": "93cc1e5e475a516b992458a5a19a64ab4f7ba46da28929fbee612295ec224532",
+        "version": "148ce4efb753b1ac0a8e09d52a137629394051a52a770b7f2853918c1040d97b",
         "signature": "137cd5f3e9cab97b4ef0a8a034bf2075a1a8b836284744aa4bffab0da994ddd0"
       },
       "./src/getTextFromRegion.ts": {
@@ -1294,11 +1294,11 @@
         "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
       "./src/getRegionByText.ts": {
-        "version": "71b7d07ddbdfda53bb44289d4dca737d37379cb8d7c8df736b97b84ed38a3fa6",
+        "version": "b925695223820e238ab8c3ca12f9c995632901be2ebac5c7b2abbe1e62a2dcd0",
         "signature": "6b3b408feddf721d8e6cac09f3e7afd2701429b6d8770277997d607f939c6bc1"
       },
       "./src/OcrContext.ts": {
-        "version": "a709f4ce18bd753e16acbb4f29566100b812bc1e92783f06478644a58837e7b0",
+        "version": "4237737b5886254519d179fcd2497a820bf5aa7b33b6cdf5029263a9e65d0263",
         "signature": "16cbe1a15da1a255135a088824e0f65245fc8b115ca2c8f9f13e49250cf66f91"
       },
       "./src/index.ts": {
