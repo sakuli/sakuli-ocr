@@ -1294,12 +1294,12 @@
         "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
       "./src/getRegionByText.ts": {
-        "version": "b925695223820e238ab8c3ca12f9c995632901be2ebac5c7b2abbe1e62a2dcd0",
-        "signature": "6b3b408feddf721d8e6cac09f3e7afd2701429b6d8770277997d607f939c6bc1"
+        "version": "3cdbe2afbfadf82f5678009e19eb3813973854937036e0a1b6cf9633c611bcc6",
+        "signature": "74d4a97b1923bea62bcf9cf31fdf8ad00aa5e6ef9d1bc4b43f0ef8f0aed9f55d"
       },
       "./src/OcrContext.ts": {
-        "version": "4237737b5886254519d179fcd2497a820bf5aa7b33b6cdf5029263a9e65d0263",
-        "signature": "16cbe1a15da1a255135a088824e0f65245fc8b115ca2c8f9f13e49250cf66f91"
+        "version": "96813ccde9c8be3e961fad57488976ef90a1759f3ea48893d206dd8e078dd8c9",
+        "signature": "6a9f59587a4415edb96e91d1bbe3e43fa4bc83e7d6d7efe7f591b62d646c710c"
       },
       "./src/index.ts": {
         "version": "b00b9d3c2ee30ea4e9967b462f5869c3602da1e431ae14c2c6d45520cd840b90",
@@ -4057,6 +4057,7 @@
         "./node_modules/@sakuli/core/dist/index.d.ts",
         "./node_modules/@sakuli/legacy/dist/context/common/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
+        "./src/regionCapture.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
