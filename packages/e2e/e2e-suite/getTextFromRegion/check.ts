@@ -14,6 +14,7 @@
       await _getTextFromRegion(region),
       "License Information\n\f"
     );
+    await region.mouseMove();
   } catch (e) {
     await testCase.handleException(e);
   } finally {
