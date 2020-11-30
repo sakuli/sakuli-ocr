@@ -32,7 +32,8 @@
     "@sakuli/core": "2.4.0",
     "@sakuli/legacy": "2.4.0",
     "@nut-tree/nut-js": "next",
-    "tesseract.js": "^2.1.4"
+    "tesseract.js": "^2.1.4",
+    "jsdom": "16.4.0"
   },
   "devDependencies": {
     "@types/node": "12.12.34",

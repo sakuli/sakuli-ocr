@@ -2,17 +2,23 @@ import { TestExecutionLifecycleHooks } from "@sakuli/core/dist/runner/context-pr
 import { Region, ThenableRegion } from "@sakuli/legacy";
 import { getTextFromRegion } from "./getTextFromRegion";
 import { getRegionByText } from "./getRegionByText";
+import { Project, TestExecutionContext } from "@sakuli/core";
 
+export type GetRegionByText = (text: string) => ThenableRegion;
 export interface OcrContext {
   _getTextFromRegion: (region: Region) => Promise<string>;
-  _getRegionByText: (text: string, region: ThenableRegion) => ThenableRegion;
+  _getRegionByText: GetRegionByText;
 }
 export class OcrContextProvider
   implements TestExecutionLifecycleHooks<OcrContext> {
-  requestContext(): Promise<OcrContext> {
+  requestContext(
+    testExecutionContext: TestExecutionContext,
+    project: Project
+  ): Promise<OcrContext> {
     return Promise.resolve({
       _getTextFromRegion: getTextFromRegion,
-      _getRegionByText: getRegionByText,
+      _getRegionByText: (text) =>
+        getRegionByText(text, project, testExecutionContext),
     });
   }
 }

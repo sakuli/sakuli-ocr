@@ -1,7 +1,6 @@
 import { SakuliPresetProvider } from "@sakuli/core";
-import { OcrContextProvider } from "./OcrContext";
+import { GetRegionByText, OcrContextProvider } from "./OcrContext";
 import { getTextFromRegion } from "./getTextFromRegion";
-import { getRegionByText } from "./getRegionByText";
 
 const ocrPreset: SakuliPresetProvider = (registry) => {
   registry.registerContextProvider(new OcrContextProvider());
@@ -13,5 +12,5 @@ export default ocrPreset;
 
 declare global {
   const _getTextFromRegion: typeof getTextFromRegion;
-  const _getRegionByText: typeof getRegionByText;
+  const _getRegionByText: GetRegionByText;
 }
