@@ -139,17 +139,36 @@ export function getRegionByText(
   }
 
   async function postProcessScreenshot() {
+    const borderThickness = 5;
     const screenshot = await loadImage(screenshotPath);
-    const canvas = createCanvas(screenshot.width + 20, screenshot.height + 20);
+    const canvas = createCanvas(
+      screenshot.width + borderThickness * 2,
+      screenshot.height + borderThickness * 2
+    );
     const ctx = canvas.getContext("2d");
 
-    ctx.drawImage(screenshot, 10, 10);
+    ctx.drawImage(screenshot, borderThickness * 2, borderThickness * 2);
 
     ctx.fillStyle = "rgb(0,255,0)";
-    ctx.fillRect(0, 0, screenshot.width + 20, 10);
-    ctx.fillRect(0, 0, 10, screenshot.height + 20);
-    ctx.fillRect(0, screenshot.height + 10, screenshot.width + 20, 10);
-    ctx.fillRect(screenshot.width + 10, 0, 10, screenshot.height + 20);
+    ctx.fillRect(0, 0, screenshot.width + borderThickness * 2, borderThickness);
+    ctx.fillRect(
+      0,
+      0,
+      borderThickness,
+      screenshot.height + borderThickness * 2
+    );
+    ctx.fillRect(
+      0,
+      screenshot.height + borderThickness,
+      screenshot.width + borderThickness * 2,
+      borderThickness
+    );
+    ctx.fillRect(
+      screenshot.width + borderThickness,
+      0,
+      borderThickness,
+      screenshot.height + borderThickness * 2
+    );
 
     fs.writeFileSync(screenshotPath, canvas.toBuffer("image/png"));
   }
