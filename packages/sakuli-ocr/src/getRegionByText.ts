@@ -74,14 +74,14 @@ export function getRegionByText(
     throw error;
   }
 
-  function searchOnScreenshot() {
+  function searchOnScreenshot(xOffset?: number, yOffset?: number) {
     try {
       const altoXmlString = execSync(
         `tesseract ${screenshotPath} stdout quiet alto`
       );
 
       const altoXml = new JSDOM(altoXmlString).window.document;
-      return findText(searchText, altoXml, searchRegion);
+      return findText(searchText, altoXml, searchRegion, xOffset, yOffset);
     } catch (e) {
       testExecutionContext.logger.debug(
         `Issue while searching for text with psm=3: ${e.message}`
@@ -93,7 +93,7 @@ export function getRegionByText(
     );
 
     const altoXml = new JSDOM(altoXmlString).window.document;
-    return findText(searchText, altoXml, searchRegion);
+    return findText(searchText, altoXml, searchRegion, xOffset, yOffset);
   }
 
   function analyzeScreen(): ThenableRegion {
@@ -112,34 +112,42 @@ export function getRegionByText(
       0,
       0,
       0,
-      postProcessScreenshot().then(searchOnScreenshot)
+      postProcessScreenshot().then(({ xOffset, yOffset }) =>
+        searchOnScreenshot(xOffset, yOffset)
+      )
     );
   }
 
   function findText(
     searchText: string,
     altoXml: any,
-    searchRegion?: ThenableRegion
+    searchRegion?: ThenableRegion,
+    xOffset?: number,
+    yOffset?: number
   ) {
     if (searchText.includes(" ")) {
       const lineContainingText = searchTextInLines(searchText, altoXml);
       return convertAltoElementToRegion(
         lineContainingText,
         searchText,
-        searchRegion
+        searchRegion,
+        xOffset,
+        yOffset
       );
     } else {
       const elementContainingWord = searchSingleWord(searchText, altoXml);
       return convertAltoElementToRegion(
         elementContainingWord,
         searchText,
-        searchRegion
+        searchRegion,
+        xOffset,
+        yOffset
       );
     }
   }
 
   async function postProcessScreenshot() {
-    const borderThickness = 5;
+    const borderThickness = 10;
     const screenshot = await loadImage(screenshotPath);
     const canvas = createCanvas(
       screenshot.width + borderThickness * 2,
@@ -149,7 +157,7 @@ export function getRegionByText(
 
     ctx.drawImage(screenshot, borderThickness * 2, borderThickness * 2);
 
-    ctx.fillStyle = "rgb(0,255,0)";
+    ctx.fillStyle = "rgb(255,255,255)";
     ctx.fillRect(0, 0, screenshot.width + borderThickness * 2, borderThickness);
     ctx.fillRect(
       0,
@@ -171,5 +179,6 @@ export function getRegionByText(
     );
 
     fs.writeFileSync(screenshotPath, canvas.toBuffer("image/png"));
+    return { xOffset: -borderThickness * 2, yOffset: -borderThickness * 2 };
   }
 }

@@ -9,11 +9,15 @@ export function createConvertAltoElementToRegion(
   return (
     elementToConvert: any,
     searchText: string,
-    searchRegion?: ThenableRegion
+    searchRegion?: ThenableRegion,
+    xOffset?: number,
+    yOffset?: number
   ) => {
     const coordinates = altoElementsToCoordinates(
       elementToConvert,
-      searchRegion
+      searchRegion,
+      xOffset,
+      yOffset
     );
     testExecutionContext.logger.debug(
       `Found text "${searchText}" on location {x: ${coordinates.x}, y: ${coordinates.y}, width: ${coordinates.width}, height: ${coordinates.height}}`
@@ -29,14 +33,13 @@ export function createConvertAltoElementToRegion(
 
 function altoElementsToCoordinates(
   elementMatchingText: any,
-  baseRegion?: ThenableRegion
+  baseRegion?: ThenableRegion,
+  xOffset: number = 0,
+  yOffset: number = 0
 ) {
-  //TODO: Add offset if image has been found with offset
-  let xOffset = 0;
-  let yOffset = 0;
   if (baseRegion) {
-    xOffset = baseRegion._left || 0;
-    yOffset = baseRegion._top || 0;
+    xOffset += baseRegion._left || 0;
+    yOffset += baseRegion._top || 0;
   }
 
   const x = parseInt(elementMatchingText.attributes.getNamedItem("HPOS").value);
