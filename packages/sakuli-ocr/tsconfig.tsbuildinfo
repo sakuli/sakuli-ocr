@@ -1293,9 +1293,21 @@
         "version": "f99ee7c64ac046d8b39ef5b9d7c9195cf44df2ac57889a55254f64056b9c8974",
         "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
+      "./src/functions/searchTextInLines.ts": {
+        "version": "57be4e4e46c714189fceb5430996afeaf7c2eba21cd9b662f51663f190ef5c2a",
+        "signature": "b9f23264ef1cc6b6e00ee248b2b0a7a1dc7799496ec8e800905f68cf48a71313"
+      },
+      "./src/functions/createConvertAltoElementToRegion.ts": {
+        "version": "54618b8975174d26399fa853326dd3b121c00319aae998a8bdf3512b47890c8f",
+        "signature": "f430a9fa985f4c0e7d49bcaf0f4cfb979ffc8af7dd168c313446d1db9c81d94a"
+      },
+      "./src/functions/searchSingleWord.ts": {
+        "version": "901f6808c33be4481ada2685781b9aa23ad76838b6867377f08dac3404aab23b",
+        "signature": "01eabf7951ddaf6d6179abd9e304be7b8fb4fadd8c30ada4413e9274a73c18bd"
+      },
       "./src/getRegionByText.ts": {
-        "version": "3cdbe2afbfadf82f5678009e19eb3813973854937036e0a1b6cf9633c611bcc6",
-        "signature": "74d4a97b1923bea62bcf9cf31fdf8ad00aa5e6ef9d1bc4b43f0ef8f0aed9f55d"
+        "version": "ae5b8a4e69446a04bb30ed578870d6cbce0338832d7ddaabb766cabed745b877",
+        "signature": "3c0d1a792f8e9c8f25fc7a86289c4659576ff951a4913c3d7f1b23def1ac1868"
       },
       "./src/OcrContext.ts": {
         "version": "96813ccde9c8be3e961fad57488976ef90a1759f3ea48893d206dd8e078dd8c9",
@@ -4050,6 +4062,28 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/functions/searchTextInLines.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functions/createConvertAltoElementToRegion.ts": [
+        "./node_modules/@sakuli/legacy/dist/index.d.ts",
+        "./node_modules/@sakuli/core/dist/index.d.ts",
+        "./node_modules/@sakuli/commons/dist/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functions/searchSingleWord.ts": [
+        "./src/functions/createConvertAltoElementToRegion.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/getRegionByText.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
         "./node_modules/@types/node/child_process.d.ts",
@@ -4058,6 +4092,9 @@
         "./node_modules/@sakuli/legacy/dist/context/common/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./src/regionCapture.ts",
+        "./src/functions/searchTextInLines.ts",
+        "./src/functions/searchSingleWord.ts",
+        "./src/functions/createConvertAltoElementToRegion.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -6658,6 +6695,11 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functions/createConvertAltoElementToRegion.ts": [
+        "./node_modules/@sakuli/core/dist/index.d.ts",
+        "./node_modules/@sakuli/commons/dist/index.d.ts",
+        "./node_modules/@sakuli/legacy/dist/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7015,7 +7057,10 @@
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
-      "./src/getRegionByText.ts"
+      "./src/functions/searchTextInLines.ts",
+      "./src/getRegionByText.ts",
+      "./src/functions/createConvertAltoElementToRegion.ts",
+      "./src/functions/searchSingleWord.ts"
     ]
   },
   "version": "3.8.3"
