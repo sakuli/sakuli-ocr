@@ -1,4 +1,4 @@
-import { ThenableRegion, Region } from "@sakuli/legacy";
+import { ThenableRegion } from "@sakuli/legacy";
 import { execSync } from "child_process";
 import { join } from "path";
 import { Project, TestExecutionContext } from "@sakuli/core";
@@ -11,6 +11,7 @@ import { regionCapture } from "./regionCapture";
 import { searchTextInLines } from "./functions/searchTextInLines";
 import { searchSingleWord } from "./functions/searchSingleWord";
 import { createConvertAltoElementToRegion } from "./functions/createConvertAltoElementToRegion";
+
 const { JSDOM } = require("jsdom");
 
 export function getRegionByText(
@@ -56,13 +57,36 @@ export function getRegionByText(
   }
 
   function analyzeScreen(): ThenableRegion {
+    try {
+      const altoXmlString = execSync(
+        `tesseract ${screenshotPath} stdout quiet alto`
+      );
+
+      const altoXml = new JSDOM(altoXmlString).window.document;
+      return findText(searchText, altoXml, searchRegion);
+    } catch (e) {
+      testExecutionContext.logger.debug(
+        `Error while searching for text with psm=3: ${e.message}`
+      );
+    } finally {
+      fs.unlinkSync(screenshotPath);
+    }
+
+    testExecutionContext.logger.debug("Start second search with psm=11");
     const altoXmlString = execSync(
-      `tesseract ${screenshotPath} stdout quiet alto`
+      `tesseract --psm 11 ${screenshotPath} stdout quiet alto`
     );
     fs.unlinkSync(screenshotPath);
 
     const altoXml = new JSDOM(altoXmlString).window.document;
+    return findText(searchText, altoXml, searchRegion);
+  }
 
+  function findText(
+    searchText: string,
+    altoXml: any,
+    searchRegion?: ThenableRegion
+  ) {
     if (searchText.includes(" ")) {
       const lineContainingText = searchTextInLines(searchText, altoXml);
       return convertAltoElementToRegion(
