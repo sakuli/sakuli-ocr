@@ -31,6 +31,7 @@ function altoElementsToCoordinates(
   elementMatchingText: any,
   baseRegion?: ThenableRegion
 ) {
+  //TODO: Add offset if image has been found with offset
   let xOffset = 0;
   let yOffset = 0;
   if (baseRegion) {

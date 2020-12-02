@@ -1,4 +1,4 @@
-import { ThenableRegion } from "@sakuli/legacy";
+import { Region, ThenableRegion } from "@sakuli/legacy";
 import { execSync } from "child_process";
 import { join } from "path";
 import { Project, TestExecutionContext } from "@sakuli/core";
@@ -11,6 +11,7 @@ import { regionCapture } from "./regionCapture";
 import { searchTextInLines } from "./functions/searchTextInLines";
 import { searchSingleWord } from "./functions/searchSingleWord";
 import { createConvertAltoElementToRegion } from "./functions/createConvertAltoElementToRegion";
+import { createCanvas, loadImage } from "canvas";
 
 const { JSDOM } = require("jsdom");
 
@@ -42,7 +43,11 @@ export function getRegionByText(
       0,
       0,
       0,
-      thenableEnvironment.takeScreenshot(screenshotName).then(analyzeScreen)
+      thenableEnvironment
+        .takeScreenshot(screenshotName)
+        .then(analyzeScreen)
+        .then(deleteScreenshot)
+        .catch(deleteScreenshotOnError)
     );
   } else {
     return new ThenableRegionClass(
@@ -51,12 +56,25 @@ export function getRegionByText(
       0,
       0,
       searchRegion.then((region) =>
-        regionCapture(region, screenshotName).then(analyzeScreen)
+        regionCapture(region, screenshotName)
+          .then(analyzeScreen)
+          .then(deleteScreenshot)
+          .catch(deleteScreenshotOnError)
       )
     );
   }
 
-  function analyzeScreen(): ThenableRegion {
+  function deleteScreenshot(region: Region) {
+    fs.unlinkSync(screenshotPath);
+    return region;
+  }
+
+  function deleteScreenshotOnError(error: Error) {
+    fs.unlinkSync(screenshotPath);
+    throw error;
+  }
+
+  function searchOnScreenshot() {
     try {
       const altoXmlString = execSync(
         `tesseract ${screenshotPath} stdout quiet alto`
@@ -66,20 +84,36 @@ export function getRegionByText(
       return findText(searchText, altoXml, searchRegion);
     } catch (e) {
       testExecutionContext.logger.debug(
-        `Error while searching for text with psm=3: ${e.message}`
+        `Issue while searching for text with psm=3: ${e.message}`
       );
-    } finally {
-      fs.unlinkSync(screenshotPath);
     }
-
-    testExecutionContext.logger.debug("Start second search with psm=11");
+    testExecutionContext.logger.debug("Start another search with psm=11");
     const altoXmlString = execSync(
       `tesseract --psm 11 ${screenshotPath} stdout quiet alto`
     );
-    fs.unlinkSync(screenshotPath);
 
     const altoXml = new JSDOM(altoXmlString).window.document;
     return findText(searchText, altoXml, searchRegion);
+  }
+
+  function analyzeScreen(): ThenableRegion {
+    try {
+      return searchOnScreenshot();
+    } catch (e) {
+      testExecutionContext.logger.debug(
+        `Issue while searching with plain screenshot: ${e.message}`
+      );
+    }
+    testExecutionContext.logger.debug(
+      "Start another search with preprocessed image."
+    );
+    return new ThenableRegionClass(
+      0,
+      0,
+      0,
+      0,
+      postProcessScreenshot().then(searchOnScreenshot)
+    );
   }
 
   function findText(
@@ -102,5 +136,21 @@ export function getRegionByText(
         searchRegion
       );
     }
+  }
+
+  async function postProcessScreenshot() {
+    const screenshot = await loadImage(screenshotPath);
+    const canvas = createCanvas(screenshot.width + 20, screenshot.height + 20);
+    const ctx = canvas.getContext("2d");
+
+    ctx.drawImage(screenshot, 10, 10);
+
+    ctx.fillStyle = "rgb(0,255,0)";
+    ctx.fillRect(0, 0, screenshot.width + 20, 10);
+    ctx.fillRect(0, 0, 10, screenshot.height + 20);
+    ctx.fillRect(0, screenshot.height + 10, screenshot.width + 20, 10);
+    ctx.fillRect(screenshot.width + 10, 0, 10, screenshot.height + 20);
+
+    fs.writeFileSync(screenshotPath, canvas.toBuffer("image/png"));
   }
 }
