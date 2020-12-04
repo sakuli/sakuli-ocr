@@ -21,6 +21,10 @@
         "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
         "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
       },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
       "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
         "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
@@ -1294,19 +1298,31 @@
         "signature": "2b2e734d189bdf49821ab416b5e70b9fcf86b15438b7e42526747bbab8bf9b49"
       },
       "./src/functions/searchTextInLines.ts": {
-        "version": "57be4e4e46c714189fceb5430996afeaf7c2eba21cd9b662f51663f190ef5c2a",
+        "version": "e0ea8f409cc8c95c5e4a43cb28734db0e9d2b996e048089c70db1c0d5d47828e",
         "signature": "b9f23264ef1cc6b6e00ee248b2b0a7a1dc7799496ec8e800905f68cf48a71313"
       },
-      "./src/functions/createConvertAltoElementToRegion.ts": {
-        "version": "54618b8975174d26399fa853326dd3b121c00319aae998a8bdf3512b47890c8f",
-        "signature": "f430a9fa985f4c0e7d49bcaf0f4cfb979ffc8af7dd168c313446d1db9c81d94a"
-      },
       "./src/functions/searchSingleWord.ts": {
-        "version": "901f6808c33be4481ada2685781b9aa23ad76838b6867377f08dac3404aab23b",
+        "version": "dc3a84a94a8b94524e9611743bc358c2139473a6992d15bb58f6a10b4b3d03a7",
         "signature": "01eabf7951ddaf6d6179abd9e304be7b8fb4fadd8c30ada4413e9274a73c18bd"
       },
+      "./src/functions/createConvertAltoElementToRegion.ts": {
+        "version": "862c68180798151aa222adf1458a8efc2863110e6a52ef7af0c07bb266d4e0e7",
+        "signature": "d78c2bc454d4fdc4ad4e48e13c721877ceda19b2b2c4d74ab1e2bd72db41c863"
+      },
+      "./src/functions/searchTextOnScreenshot.ts": {
+        "version": "2c6879438a1cf11e6671cfbaa4a36453541e434facdb2dbf4b8ea29155dca888",
+        "signature": "e1480a73edcc8b66f885c8266ec640d58e4f39b741d6e3dde73f625e33a6de3a"
+      },
+      "./node_modules/canvas/types/index.d.ts": {
+        "version": "972ac7483ef1685284ba6261bcb644be0a89fa7754e093305e5f4a3ee1b111b5",
+        "signature": "972ac7483ef1685284ba6261bcb644be0a89fa7754e093305e5f4a3ee1b111b5"
+      },
+      "./src/functions/postprocessScreenshot.ts": {
+        "version": "1113611c25da678fdc30c0dfe7c0533062c2333870abe20db23c418fe126718e",
+        "signature": "4e3cb2f91bad4c3871d637468304bcfb8174e4cfc1f81c87d305130497a46186"
+      },
       "./src/getRegionByText.ts": {
-        "version": "ae5b8a4e69446a04bb30ed578870d6cbce0338832d7ddaabb766cabed745b877",
+        "version": "d8f83153beea0c05507724c49fb15508301fc6f60f8e9a24912cdc2148228036",
         "signature": "3c0d1a792f8e9c8f25fc7a86289c4659576ff951a4913c3d7f1b23def1ac1868"
       },
       "./src/OcrContext.ts": {
@@ -1478,6 +1494,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -4068,6 +4090,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/functions/searchSingleWord.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/functions/createConvertAltoElementToRegion.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
         "./node_modules/@sakuli/core/dist/index.d.ts",
@@ -4077,8 +4105,28 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functions/searchSingleWord.ts": [
+      "./src/functions/searchTextOnScreenshot.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@sakuli/core/dist/index.d.ts",
+        "./node_modules/@sakuli/legacy/dist/index.d.ts",
+        "./node_modules/@sakuli/commons/dist/index.d.ts",
+        "./src/functions/searchTextInLines.ts",
+        "./src/functions/searchSingleWord.ts",
         "./src/functions/createConvertAltoElementToRegion.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/canvas/types/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/functions/postprocessScreenshot.ts": [
+        "./node_modules/canvas/types/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -4086,15 +4134,13 @@
       ],
       "./src/getRegionByText.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts",
-        "./node_modules/@types/node/child_process.d.ts",
         "./node_modules/@types/node/path.d.ts",
         "./node_modules/@sakuli/core/dist/index.d.ts",
         "./node_modules/@sakuli/legacy/dist/context/common/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./src/regionCapture.ts",
-        "./src/functions/searchTextInLines.ts",
-        "./src/functions/searchSingleWord.ts",
-        "./src/functions/createConvertAltoElementToRegion.ts",
+        "./src/functions/searchTextOnScreenshot.ts",
+        "./src/functions/postprocessScreenshot.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -4348,6 +4394,12 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -6492,6 +6544,18 @@
       "./src/getTextFromRegion.ts": [
         "./node_modules/@sakuli/legacy/dist/index.d.ts"
       ],
+      "./src/functions/createConvertAltoElementToRegion.ts": [
+        "./node_modules/@sakuli/core/dist/index.d.ts",
+        "./node_modules/@sakuli/commons/dist/index.d.ts",
+        "./node_modules/@sakuli/legacy/dist/index.d.ts"
+      ],
+      "./node_modules/canvas/types/index.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/getRegionByText.ts": [
         "./node_modules/@sakuli/core/dist/index.d.ts",
         "./node_modules/@sakuli/legacy/dist/index.d.ts"
@@ -6696,7 +6760,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/functions/createConvertAltoElementToRegion.ts": [
+      "./src/functions/searchTextOnScreenshot.ts": [
         "./node_modules/@sakuli/core/dist/index.d.ts",
         "./node_modules/@sakuli/commons/dist/index.d.ts",
         "./node_modules/@sakuli/legacy/dist/index.d.ts"
@@ -6708,6 +6772,7 @@
       "./node_modules/typescript/lib/lib.es2016.d.ts",
       "./node_modules/typescript/lib/lib.es2017.d.ts",
       "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
       "./node_modules/typescript/lib/lib.es2015.core.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
@@ -7026,6 +7091,9 @@
       "./node_modules/@nut-tree/nut-js/dist/index.d.ts",
       "./src/regionCapture.ts",
       "./src/getTextFromRegion.ts",
+      "./src/functions/searchTextInLines.ts",
+      "./src/functions/searchSingleWord.ts",
+      "./node_modules/canvas/types/index.d.ts",
       "./src/OcrContext.ts",
       "./src/index.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
@@ -7057,10 +7125,10 @@
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
-      "./src/functions/searchTextInLines.ts",
-      "./src/getRegionByText.ts",
       "./src/functions/createConvertAltoElementToRegion.ts",
-      "./src/functions/searchSingleWord.ts"
+      "./src/functions/searchTextOnScreenshot.ts",
+      "./src/getRegionByText.ts",
+      "./src/functions/postprocessScreenshot.ts"
     ]
   },
   "version": "3.8.3"

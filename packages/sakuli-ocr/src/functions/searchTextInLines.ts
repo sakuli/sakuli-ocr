@@ -10,13 +10,11 @@ export function searchTextInLines(searchText: string, altoXml: any) {
     const childNodes = currentTextLine.querySelectorAll("String");
     for (let wordIndex = 0; wordIndex < childNodes.length; wordIndex++) {
       const currentElement = childNodes[wordIndex];
-      textInLine += `${
-        currentElement.attributes.getNamedItem("CONTENT").value
-      } `;
+      textInLine += currentElement.attributes.getNamedItem("CONTENT").value;
     }
     if (textInLine.includes(searchText)) {
       return currentTextLine;
     }
   }
-  throw new Error(`Search text ${searchText} could not be found on screen.`);
+  throw new Error(`Search text "${searchText}" could not be found on screen.`);
 }
