@@ -2,7 +2,7 @@ export function searchSingleWord(searchText: string, altoXml: any) {
   const elementMatchingText = findWordElement(searchText, altoXml);
 
   if (!elementMatchingText) {
-    throw Error(`Could not find text "${searchText}" on screen.`);
+    throw Error(`Search text "${searchText}" could not be found on screen.`);
   }
 
   return elementMatchingText;

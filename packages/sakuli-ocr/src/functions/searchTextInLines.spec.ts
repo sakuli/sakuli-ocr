@@ -5,16 +5,7 @@ describe("search text in Lines", () => {
   it("should find search text in text lines", () => {
     //GIVEN
     const searchText = "foo bar";
-    const expectedTextLineID = "line_1";
-    const lineWithSearchText = `
-                    <TextLine ID="${expectedTextLineID}" HPOS="39" VPOS="5" WIDTH="400" HEIGHT="16">
-                        <String ID="string_0" CONTENT="meta"/>
-                        <String ID="string_1" CONTENT="syntactic"/>
-                        <String ID="string_2" CONTENT="variables"/>
-                        <String ID="string_3" CONTENT="are"/>
-                        <String ID="string_4" CONTENT="foo"/>
-                        <String ID="string_5" CONTENT="bar"/>
-                    </TextLine>`;
+    const expectedTextLineId = "line_1";
     const altoXml = mockAltoXml(`
             <ComposedBlock ID="cblock_0" >
                 <TextBlock ID="block_0">
@@ -23,7 +14,14 @@ describe("search text in Lines", () => {
                         <String ID="string_1" CONTENT="hands"/>
                         <String ID="string_2" CONTENT="meeting"/>
                     </TextLine>
-                    ${lineWithSearchText}
+                    <TextLine ID="${expectedTextLineId}" HPOS="39" VPOS="5" WIDTH="400" HEIGHT="16">
+                        <String ID="string_0" CONTENT="meta"/>
+                        <String ID="string_1" CONTENT="syntactic"/>
+                        <String ID="string_2" CONTENT="variables"/>
+                        <String ID="string_3" CONTENT="are"/>
+                        <String ID="string_4" CONTENT="foo"/>
+                        <String ID="string_5" CONTENT="bar"/>
+                    </TextLine>
                     <TextLine ID="line_2" HPOS="39" VPOS="5" WIDTH="400" HEIGHT="16">
                         <String ID="string_0" CONTENT="some"/>
                         <String ID="string_1" CONTENT="crazy"/>
@@ -38,7 +36,7 @@ describe("search text in Lines", () => {
 
     //THEN
     expect(lineWithText.attributes.getNamedItem("ID").value).toEqual(
-      expectedTextLineID
+      expectedTextLineId
     );
   });
 
