@@ -21,15 +21,13 @@ describe("create convert alto element to region", () => {
     jest.resetAllMocks();
   });
 
-  it("should convert element to region", () => {
-    //GIVEN
-    const searchText = "foo bar";
-    const horizontalPosition = 10;
-    const verticalPosition = 42;
-    const width = 9;
-    const height = 15;
-
-    const getNamedItemMock = jest.fn((name) => {
+  function mockGetNamedItem(
+    horizontalPosition: number,
+    verticalPosition: number,
+    width: number,
+    height: number
+  ) {
+    return jest.fn((name) => {
       switch (name) {
         case "HPOS":
           return { value: `${horizontalPosition}` };
@@ -41,9 +39,24 @@ describe("create convert alto element to region", () => {
           return { value: `${height}` };
       }
     });
+  }
+
+  it("should convert element to region", () => {
+    //GIVEN
+    const searchText = "foo bar";
+    const horizontalPosition = 10;
+    const verticalPosition = 42;
+    const width = 9;
+    const height = 15;
+
     const altoElement = {
       attributes: {
-        getNamedItem: getNamedItemMock,
+        getNamedItem: mockGetNamedItem(
+          horizontalPosition,
+          verticalPosition,
+          width,
+          height
+        ),
       },
     };
 
@@ -69,22 +82,14 @@ describe("create convert alto element to region", () => {
     const height = 15;
     const xOffset = 7;
     const yOffset = 13;
-
-    const getNamedItemMock = jest.fn((name) => {
-      switch (name) {
-        case "HPOS":
-          return { value: `${horizontalPosition}` };
-        case "VPOS":
-          return { value: `${verticalPosition}` };
-        case "WIDTH":
-          return { value: `${width}` };
-        case "HEIGHT":
-          return { value: `${height}` };
-      }
-    });
     const altoElement = {
       attributes: {
-        getNamedItem: getNamedItemMock,
+        getNamedItem: mockGetNamedItem(
+          horizontalPosition,
+          verticalPosition,
+          width,
+          height
+        ),
       },
     };
 
@@ -123,21 +128,14 @@ describe("create convert alto element to region", () => {
       _top: topOffset,
     });
 
-    const getNamedItemMock = jest.fn((name) => {
-      switch (name) {
-        case "HPOS":
-          return { value: `${horizontalPosition}` };
-        case "VPOS":
-          return { value: `${verticalPosition}` };
-        case "WIDTH":
-          return { value: `${width}` };
-        case "HEIGHT":
-          return { value: `${height}` };
-      }
-    });
     const altoElement = {
       attributes: {
-        getNamedItem: getNamedItemMock,
+        getNamedItem: mockGetNamedItem(
+          horizontalPosition,
+          verticalPosition,
+          width,
+          height
+        ),
       },
     };
 
@@ -173,18 +171,12 @@ describe("create convert alto element to region", () => {
       _top: topOffset,
     });
 
-    const getNamedItemMock = jest.fn((name) => {
-      switch (name) {
-        case "HPOS":
-          return { value: `${horizontalPosition}` };
-        case "VPOS":
-          return { value: `${verticalPosition}` };
-        case "WIDTH":
-          return { value: `${width}` };
-        case "HEIGHT":
-          return { value: `${height}` };
-      }
-    });
+    const getNamedItemMock = mockGetNamedItem(
+      horizontalPosition,
+      verticalPosition,
+      width,
+      height
+    );
     const altoElement = {
       attributes: {
         getNamedItem: getNamedItemMock,
