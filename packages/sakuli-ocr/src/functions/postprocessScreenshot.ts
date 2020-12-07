@@ -10,7 +10,7 @@ export async function postprocessScreenshot(screenshotPath: string) {
   );
   const ctx = canvas.getContext("2d");
 
-  ctx.drawImage(screenshot, borderThickness * 2, borderThickness * 2);
+  ctx.drawImage(screenshot, borderThickness, borderThickness);
 
   ctx.fillStyle = "rgb(255,255,255)";
   //Top border
