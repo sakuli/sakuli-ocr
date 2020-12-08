@@ -11,8 +11,17 @@ on:
 jobs:
   ci:
     name: ci
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ macos-latest, ubuntu-latest, windows-latest ]
+    runs-on: ${{ matrix.os }}
     steps:
+      - name: Install
+        run: |
+          if [ "$RUNNER_OS" == "Linux" ]; then
+               sudo apt-get install build-essential python libxtst-dev libpng++-dev xvfb
+          fi
+        shell: bash
       - uses: actions/checkout@v2
       - name: Use Node.js 14
         uses: actions/setup-node@v1
