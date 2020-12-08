@@ -46,6 +46,8 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npx lerna run build
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - name: execute E2E tests
         run: |
           EXECUTE_TESTS="npx lerna run test:e2e"
