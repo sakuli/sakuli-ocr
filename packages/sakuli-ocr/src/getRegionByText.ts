@@ -6,7 +6,7 @@ import {
   createThenableRegionClass,
 } from "@sakuli/legacy/dist/context/common";
 import fs from "fs";
-import { regionCapture } from "./regionCapture";
+import { regionCapture } from "./functions/regionCapture";
 import { createSearchTextOnScreenshot } from "./functions/searchTextOnScreenshot";
 import { postprocessScreenshot } from "./functions/postprocessScreenshot";
 

@@ -2,7 +2,7 @@ import { Region } from "@sakuli/legacy";
 import { execSync } from "child_process";
 import { join } from "path";
 import fs from "fs";
-import { regionCapture } from "./regionCapture";
+import { regionCapture } from "./functions/regionCapture";
 
 export async function getTextFromRegion(region: Region): Promise<string> {
   await regionCapture(region, "ocr-screenshot.png");
