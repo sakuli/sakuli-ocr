@@ -1,5 +1,5 @@
 import { Region } from "@sakuli/legacy";
-import { screen, Region as NutRegion } from "@nut-tree/nut-js";
+import { Region as NutRegion, screen } from "@nut-tree/nut-js";
 import { execSync } from "child_process";
 import { join } from "path";
 import fs from "fs";
@@ -24,9 +24,15 @@ export async function getTextFromRegion(region: Region): Promise<string> {
     ),
     "ocr-screenshot.png"
   );
-  const text = execSync(
-    `tesseract ${join(process.cwd(), "ocr-screenshot.png")} stdout`
-  );
+  const isWin = process.platform === "win32";
+  const tesseractParams = `${join(process.cwd(), "ocr-screenshot.png")} stdout`;
+  let text;
+  if (isWin) {
+    text = execSync(`tesseract.exe ${tesseractParams}`);
+  } else {
+    text = execSync(`tesseract ${tesseractParams}`);
+  }
+
   fs.unlinkSync(join(process.cwd(), "ocr-screenshot.png"));
   return Promise.resolve(text.toString());
 }
