@@ -36,6 +36,7 @@ jobs:
             brew install tesseract
           elif [ "$RUNNER_OS" == "Windows" ]; then
             nuget install Tesseract
+            echo "%userprofile%\.nuget\packages" >> $GITHUB_PATH
           fi
         shell: bash
       - uses: actions/checkout@v2
