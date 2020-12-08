@@ -31,7 +31,11 @@ jobs:
       - name: Install prerequisites
         run: |
           if [ "$RUNNER_OS" == "Linux" ]; then
-               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev xvfb
+               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract xvfb
+          elif [ "$RUNNER_OS" == "macOS" ]; then
+            brew install tesseract
+          elif [ "$RUNNER_OS" == "Windows" ]; then
+            paket add Tesseract
           fi
         shell: bash
       - uses: actions/checkout@v2
@@ -41,14 +45,14 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npx lerna run build
-      - run: |
+      - name: execute E2E tests
+        run: |
           EXECUTE_TESTS="npx lerna run test:e2e"
           if [ "$RUNNER_OS" == "Linux" ]; then
             xvfb-run ${EXECUTE_TESTS}
           else
             ${EXECUTE_TESTS}
           fi
-
         shell: bash
         env:
           SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
