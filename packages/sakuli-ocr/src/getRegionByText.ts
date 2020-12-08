@@ -20,12 +20,6 @@ export function getRegionByText(
     testExecutionContext,
     project
   );
-
-  const thenableEnvironment = new (createThenableEnvironmentClass(
-    testExecutionContext,
-    project
-  ))();
-
   const searchTextOnScreenshot = createSearchTextOnScreenshot(
     testExecutionContext,
     ThenableRegionClass
@@ -35,6 +29,10 @@ export function getRegionByText(
   const screenshotPath = join(process.cwd(), screenshotName);
 
   if (!searchRegion) {
+    const thenableEnvironment = new (createThenableEnvironmentClass(
+      testExecutionContext,
+      project
+    ))();
     return new ThenableRegionClass(
       0,
       0,
