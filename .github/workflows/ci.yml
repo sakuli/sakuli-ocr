@@ -28,11 +28,10 @@ jobs:
         os: [macos-latest, ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Install
+      - name: Install prerequisites
         run: |
           if [ "$RUNNER_OS" == "Linux" ]; then
-               sudo apt-get install build-essential python libxtst-dev libpng++-dev xvfb
-               xvfb-run
+               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev xvfb
           fi
         shell: bash
       - uses: actions/checkout@v2
@@ -42,6 +41,14 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npx lerna run build
-      - run: npx lerna run test:e2e
+      - run: |
+          EXECUTE_TESTS="npx lerna run test:e2e"
+          if [ "$RUNNER_OS" == "Linux" ]; then
+            xvfb-run ${EXECUTE_TESTS}
+          else
+            ${EXECUTE_TESTS}
+          fi
+
+        shell: bash
         env:
           SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
