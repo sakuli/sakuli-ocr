@@ -33,8 +33,6 @@ jobs:
           if [ "$RUNNER_OS" == "Linux" ]; then
                sudo apt-get install build-essential python libxtst-dev libpng++-dev xvfb
                xvfb-run
-          elif [ "$RUNNER_OS" == "macOS" ]; then
-               xcode-select --install
           fi
         shell: bash
       - uses: actions/checkout@v2
