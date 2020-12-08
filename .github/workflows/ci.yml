@@ -3,26 +3,30 @@ name: ci
 on:
   push:
     branches-ignore:
-      - 'master'
-      - 'develop'
-      - 'release/**'
+      - "master"
+      - "develop"
+      - "release/**"
   pull_request:
 
 jobs:
   ci:
     name: ci
-    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        os: [macos-latest, ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
+      - name: Install
+        run: |
+          if [ "$RUNNER_OS" == "Linux" ]; then
+               sudo apt-get install build-essential python libxtst-dev libpng++-dev xvfb
+          fi
+        shell: bash
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 14
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: install tesseract
-        run: sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu
+          node-version: 14.x
       - run: npm install
       - run: npx lerna run build
       - run: npx lerna run test
