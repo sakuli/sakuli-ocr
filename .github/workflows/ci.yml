@@ -35,7 +35,7 @@ jobs:
           elif [ "$RUNNER_OS" == "macOS" ]; then
             brew install tesseract
           elif [ "$RUNNER_OS" == "Windows" ]; then
-            nuget Install-Package Tesseract
+            nuget install Tesseract
           fi
         shell: bash
       - uses: actions/checkout@v2
