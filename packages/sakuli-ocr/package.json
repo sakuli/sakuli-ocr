@@ -7,7 +7,7 @@
   "scripts": {
     "copy": "node move-files.js ./out ./dist",
     "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
-    "test": "jest --passWithNoTests",
+    "test": "jest",
     "build": "tsc",
     "build:release": "tsc && npm run obfuscate && npm run copy"
   },
