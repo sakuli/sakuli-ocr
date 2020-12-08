@@ -31,7 +31,7 @@ jobs:
       - name: Install prerequisites
         run: |
           if [ "$RUNNER_OS" == "Linux" ]; then
-               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract xvfb
+               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
           elif [ "$RUNNER_OS" == "macOS" ]; then
             brew install tesseract
           elif [ "$RUNNER_OS" == "Windows" ]; then
