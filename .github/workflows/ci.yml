@@ -25,7 +25,7 @@ jobs:
     name: e2e-test
     strategy:
       matrix:
-        os: [windows-latest] #macos-latest, ubuntu-latest,
+        os: [windows-latest, macos-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Install prerequisites
@@ -48,7 +48,8 @@ jobs:
       - run: npx lerna run build
       - name: execute E2E tests
         run: |
-          EXECUTE_TESTS="npx lerna run test:e2e"
+          cd ./packages/e2e
+          EXECUTE_TESTS="npm run test:e2e"
           if [ "$RUNNER_OS" == "Linux" ]; then
             xvfb-run ${EXECUTE_TESTS}
           else
