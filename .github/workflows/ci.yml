@@ -51,7 +51,7 @@ jobs:
           cd ./packages/e2e
           EXECUTE_TESTS="npm run test:e2e"
           if [ "$RUNNER_OS" == "Linux" ]; then
-            xvfb-run ${EXECUTE_TESTS}
+            xvfb-run --server-args="1920x1080x24" ${EXECUTE_TESTS}
           else
             ${EXECUTE_TESTS}
           fi
