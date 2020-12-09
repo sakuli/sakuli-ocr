@@ -64,4 +64,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: error-screenshot
-          path: e2e-suite/_logs/_screenshots
+          path: ./packages/e2e/e2e-suite/_logs/_screenshots
