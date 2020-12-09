@@ -25,13 +25,13 @@ jobs:
     name: e2e-test
     strategy:
       matrix:
-        os: [ubuntu-latest] # windows-latest, macos-latest,
+        os: [macos-latest] # windows-latest, ubuntu-latest,
     runs-on: ${{ matrix.os }}
     steps:
       - name: Install prerequisites
         run: |
           if [ "$RUNNER_OS" == "Linux" ]; then
-               sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
+            sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
           elif [ "$RUNNER_OS" == "macOS" ]; then
             brew install tesseract
           elif [ "$RUNNER_OS" == "Windows" ]; then

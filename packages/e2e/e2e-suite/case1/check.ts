@@ -1,11 +1,12 @@
 (async () => {
-  const testCase = new TestCase("Fry a typed egg");
+  const testCase = new TestCase("getTextFromRegion");
   const url = "https://sakuli.io/e2e-pages/sandbox/";
   try {
+    await testCase.startStep("Navigate to sakuli sandbox website");
     await _navigateTo(url);
-    await testCase.endOfStep("Navigate to sakuli sandbox website");
-
     await _wait(1000);
+
+    await testCase.startStep("get text from region");
     const region = await new Region(0, 100, 650, 200);
     const textOnScreen = await _getTextFromRegion(region);
     const searchString = /Every html element in one place\. Just waiting to be styled\./;
