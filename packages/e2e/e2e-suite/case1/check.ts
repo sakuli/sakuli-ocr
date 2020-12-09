@@ -7,7 +7,7 @@
     await _navigateTo(url);
     await testCase.endOfStep("Navigate to sakuli website");
 
-    await env.setSimilarity(0.96);
+    await env.setSimilarity(0.8);
     const region = await screen.find("assets/needle.png");
     await region.highlight(1);
     await _assertEqual(
