@@ -5,7 +5,7 @@
     await _navigateTo(url);
     await testCase.endOfStep("Navigate to sakuli sandbox website");
 
-    const region = await new Region(0, 0, 1000, 500);
+    const region = await new Region(0, 100, 650, 200);
     await region.highlight(1);
     const textOnScreen = await _getTextFromRegion(region);
     const searchString = /Every html element in one place\. Just waiting to be styled\./;
