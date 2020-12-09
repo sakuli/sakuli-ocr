@@ -23,15 +23,9 @@ export async function getTextFromRegion(region: Region): Promise<string> {
     ),
     "ocr-screenshot.png"
   );
-  const isWin = process.platform === "win32";
-  const tesseractParams = `${join(process.cwd(), "ocr-screenshot.png")} stdout`;
-  let text;
-  if (isWin) {
-    text = execSync(`tesseract.exe ${tesseractParams}`);
-  } else {
-    text = execSync(`tesseract ${tesseractParams}`);
-  }
-
+  const text = execSync(
+    `tesseract ${join(process.cwd(), "ocr-screenshot.png")} stdout`
+  );
   // fs.unlinkSync(join(process.cwd(), "ocr-screenshot.png"));
   return Promise.resolve(text.toString());
 }
