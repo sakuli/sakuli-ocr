@@ -66,4 +66,4 @@ jobs:
           name: error-screenshot
           path: |
             ./packages/e2e/e2e-suite/_logs/_screenshots
-            ocr-screenshot.png
+            ./packages/e2e/ocr-screenshot.png
