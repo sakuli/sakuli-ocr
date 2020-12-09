@@ -59,3 +59,9 @@ jobs:
         env:
           SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
           LOG_MODE: ci
+      - name: save screenshots
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: error-screenshot
+          path: e2e-suite/_logs/_screenshots
