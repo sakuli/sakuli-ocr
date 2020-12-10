@@ -36,7 +36,9 @@ jobs:
           name: error-screenshots
           path: |
             ./packages/e2e/e2e-suite/_logs/_screenshots
-      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-        name: create npmrc
+      - name: create npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ NODE_AUTH_TOKEN }}" > ~/.npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npx lerna run build:release
       - run: npm run lerna:publish-next
