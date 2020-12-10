@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: "0"
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
       - name: Use Node.js 14
         uses: actions/setup-node@v1
         with:
@@ -39,10 +42,8 @@ jobs:
           name: error-screenshots
           path: |
             ./packages/e2e/e2e-suite/_logs/_screenshots
-      - name: create .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ NODE_AUTH_TOKEN }}" > ~/.npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npx lerna run build:release
       - run: npx lerna version --no-git-tag-version --no-push -y --exact ${SAKULI_VERSION}
       - run: npm run lerna:publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
