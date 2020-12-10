@@ -1,0 +1,42 @@
+name: cd
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  release-next:
+    name: release-next
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - name: Install prerequisites
+        run: sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
+        shell: bash
+      - run: npm install
+      - run: npx lerna run build
+      - run: npx lerna run test
+      - name: execute E2E tests
+        run: |
+          cd ./packages/e2e
+          xvfb-run --server-args="-screen 0, 1920x1080x24" npm run test:e2e
+        shell: bash
+        env:
+          SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
+          LOG_MODE: ci
+      - name: save error screenshots on failure
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: error-screenshots
+          path: |
+            ./packages/e2e/e2e-suite/_logs/_screenshots
+      - run: npx lerna run build:release
+      - run: npm run lerna:publish-next
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

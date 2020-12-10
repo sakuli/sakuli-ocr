@@ -1,37 +1,23 @@
 {
-  "name": "@sakuli/ocr",
-  "version": "2.4.0",
-  "description": "Enterprise OCR extension for Sakuli",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.js",
+  "name": "root",
+  "private": true,
   "scripts": {
-    "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
-    "test": "jest",
-    "build": "tsc"
-  },
-  "keywords": [
-    "sakuliPreset"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com//sakuli/sakuli-ocr.git"
-  },
-  "author": {
-    "name": "Sven Hettwer",
-    "email": "Sven.Hettwer@consol.de"
-  },
-  "contributors": [
-    "Tim Keiner <tim.keiner@consol.de>",
-    "Simon Hofmann <simon.hofmann@consol.de>",
-    "Sven Hettwer <sven.hettwer@consol.de>",
-    "Cliff Le Van <cliff.le.van@consol.de>"
-  ],
-  "dependencies": {
-    "@sakuli/core": "2.4.0"
+    "audit": "npm audit fix && lerna-audit",
+    "rebuild": "npm run clean && npm install && npm run build",
+    "clean": "lerna clean -y",
+    "postinstall": "lerna bootstrap",
+    "build": "lerna run build",
+    "lerna:publish": "lerna publish from-package --yes ",
+    "lerna:publish-next": "lerna publish --canary --include-merged-tags --preid next --dist-tag next --pre-dist-tag next --no-push --no-git-tag-version --no-git-reset --force-publish --yes"
   },
   "devDependencies": {
-    "javascript-obfuscator": "2.8.1",
-    "typescript": "3.8.3",
-    "@types/node": "12.12.34"
+    "@types/jest": "25.2.1",
+    "@types/node": "12.12.34",
+    "fs-extra": "8.1.0",
+    "jest": "25.2.7",
+    "lerna": "3.22.1",
+    "lerna-audit": "1.3.0",
+    "ts-jest": "25.3.1",
+    "typescript": "3.8.3"
   }
 }
