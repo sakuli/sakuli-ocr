@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     name: test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 14
@@ -23,7 +23,7 @@ jobs:
       - run: npm t -- --runInBand --ci --bail
   e2e-test:
     name: e2e-test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Install prerequisites
         run: sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
