@@ -3,8 +3,7 @@
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "*.txt"],
-      "registry": "https://registry.npmjs.org/"
+      "ignoreChanges": ["*.md", "*.txt"]
     },
     "version": {
       "allowBranch": ["release/*", "develop"]
