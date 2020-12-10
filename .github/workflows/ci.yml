@@ -20,7 +20,7 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npx lerna run build
-      - run: npx lerna run test
+      - run: npm t -- --runInBand --ci --bail
   e2e-test:
     name: e2e-test
     runs-on: ubuntu-latest
