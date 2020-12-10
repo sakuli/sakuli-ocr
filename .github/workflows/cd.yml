@@ -14,7 +14,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-          registry-url: https://registry.npmjs.org/
       - name: Install prerequisites
         run: sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
         shell: bash

@@ -1,20 +1,13 @@
 {
   "version": "2.4.0",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "*.txt"
-      ]
+      "ignoreChanges": ["*.md", "*.txt"],
+      "registry": "https://registry.npmjs.org/"
     },
     "version": {
-      "allowBranch": [
-        "release/*",
-        "develop"
-      ]
+      "allowBranch": ["release/*", "develop"]
     }
   }
 }
