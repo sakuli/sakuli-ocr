@@ -42,7 +42,7 @@ export function getRegionByText(
         .takeScreenshot(screenshotName)
         .then(analyzeScreen)
         .then(deleteScreenshot)
-      // .catch(deleteScreenshotOnError)
+        .catch(deleteScreenshotOnError)
     );
   } else {
     return new ThenableRegionClass(
@@ -50,12 +50,11 @@ export function getRegionByText(
       0,
       0,
       0,
-      searchRegion.then(
-        (region) =>
-          regionCapture(region, screenshotName)
-            .then(analyzeScreen)
-            .then(deleteScreenshot)
-        // .catch(deleteScreenshotOnError)
+      searchRegion.then((region) =>
+        regionCapture(region, screenshotName)
+          .then(analyzeScreen)
+          .then(deleteScreenshot)
+          .catch(deleteScreenshotOnError)
       )
     );
   }

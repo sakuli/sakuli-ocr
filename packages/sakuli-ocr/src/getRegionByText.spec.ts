@@ -85,7 +85,7 @@ describe("getRegionByText", () => {
       expect(resultRegion).toBe(expectedResultRegion);
     });
 
-    it.skip("should delete screenshot on error", async () => {
+    it("should delete screenshot on error", async () => {
       //GIVEN
       (searchTextOnScreenshot as jest.Mock).mockImplementation(() => {
         throw Error("Error while searching text on screen");
@@ -185,7 +185,7 @@ describe("getRegionByText", () => {
       expect(resultRegion).toBe(expectedResultRegion);
     });
 
-    it.skip("should delete screenshot on error", async () => {
+    it("should delete screenshot on error", async () => {
       //GIVEN
       (searchTextOnScreenshot as jest.Mock).mockImplementation(() => {
         throw Error("Error while searching text on screen");
