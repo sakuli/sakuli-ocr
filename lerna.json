@@ -1,20 +1,12 @@
 {
   "version": "2.4.0",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "*.txt"
-      ]
+      "ignoreChanges": ["*.md", "*.txt"]
     },
     "version": {
-      "allowBranch": [
-        "release/*",
-        "develop"
-      ]
+      "allowBranch": ["release/*", "develop"]
     }
   }
 }
