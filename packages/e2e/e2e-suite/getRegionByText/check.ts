@@ -4,7 +4,7 @@
   try {
     await testCase.startStep("Navigate to website");
     await _navigateTo(url);
-    await _wait(1000);
+    await _wait(2000);
 
     await testCase.startStep("find 'Every'");
     await _getRegionByText("Every").highlight(1);
