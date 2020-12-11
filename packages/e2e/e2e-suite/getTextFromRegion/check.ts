@@ -11,8 +11,6 @@
     const textOnScreen = await _getTextFromRegion(region);
     const searchString = /Every html element in one place\. Just waiting to be styled\./;
 
-    Logger.logDebug(`Text on screen: \n ${textOnScreen}\n`);
-
     await _assert(
       Promise.resolve(!!textOnScreen.match(searchString)),
       `Could not find searched text on screen: "${searchString}"`

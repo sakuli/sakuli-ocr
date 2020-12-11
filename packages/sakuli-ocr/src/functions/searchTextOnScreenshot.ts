@@ -19,7 +19,7 @@ export function createSearchTextOnScreenshot(
   ) {
     const { JSDOM } = require("jsdom");
     const altoXmlString = execSync(tesseractCall);
-    testExecutionContext.logger.debug(`received alto xml:\n${altoXmlString}\n`);
+    testExecutionContext.logger.trace(`received alto xml:\n${altoXmlString}\n`);
     const altoXml = new JSDOM(altoXmlString).window.document;
     return findText(searchText, altoXml, searchRegion, xOffset, yOffset);
   }
