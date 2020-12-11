@@ -14,6 +14,7 @@ describe("searchTextOnScreenshot", () => {
   const testExecutionContextMock = mockPartial<TestExecutionContext>({
     logger: mockPartial<SimpleLogger>({
       debug: jest.fn(),
+      trace: jest.fn(),
     }),
   });
 
