@@ -8,8 +8,9 @@ export type GetRegionByText = (
   text: string,
   region?: ThenableRegion
 ) => ThenableRegion;
+export type GetTextFromRegion = (region: Region) => Promise<string>;
 export interface OcrContext {
-  _getTextFromRegion: (region: Region) => Promise<string>;
+  _getTextFromRegion: GetTextFromRegion;
   _getRegionByText: GetRegionByText;
 }
 export class OcrContextProvider
