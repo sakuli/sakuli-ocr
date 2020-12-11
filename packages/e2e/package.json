@@ -7,7 +7,8 @@
   "homepage": "",
   "license": "ISC",
   "scripts": {
-    "test:e2e": "sakuli run e2e-suite"
+    "test:e2e": "sakuli run e2e-suite",
+    "test:e2e:debug": "node --inspect node_modules/@sakuli/cli/dist/index run e2e-suite"
   },
   "dependencies": {
     "@sakuli/cli": "next",

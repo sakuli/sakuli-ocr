@@ -7,11 +7,9 @@
     await _wait(1000);
 
     await testCase.startStep("get text from region");
-    const region = await new Region(0, 100, 650, 200);
+    const region = await new Region(0, 100, 700, 200);
     const textOnScreen = await _getTextFromRegion(region);
     const searchString = /Every html element in one place\. Just waiting to be styled\./;
-
-    Logger.logDebug(`Text on screen: \n ${textOnScreen}\n`);
 
     await _assert(
       Promise.resolve(!!textOnScreen.match(searchString)),

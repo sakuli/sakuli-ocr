@@ -8,7 +8,7 @@ on:
 jobs:
   release-version:
     name: release-version
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -26,7 +26,7 @@ jobs:
         run: echo "SAKULI_VERSION=${GITHUB_REF#refs/*/v}" >> $GITHUB_ENV
       - run: npm install
       - run: npx lerna run build
-      - run: npx lerna run test
+      - run: npm t -- --runInBand --ci --bail
       - name: execute E2E tests
         run: |
           cd ./packages/e2e
