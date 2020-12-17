@@ -34,7 +34,7 @@ describe("searchTextOnScreenshot", () => {
     const xOffset = 42;
     const yOffset = 84;
     const expectedScreenRegion = mockPartial<ThenableRegion>({ _height: 84 });
-    const expectedTesseractCall = `tesseract ${screenshotPath} stdout quiet alto`;
+    const expectedTesseractCall = `tesseract "${screenshotPath}" stdout quiet alto`;
     const mockedAltoXml = mockAltoXml("");
 
     (execSync as jest.Mock).mockImplementation(() => mockAltoXmlString(""));
@@ -78,7 +78,7 @@ describe("searchTextOnScreenshot", () => {
     const xOffset = 42;
     const yOffset = 84;
     const expectedScreenRegion = mockPartial<ThenableRegion>({ _height: 84 });
-    const expectedTesseractCall = `tesseract --psm 11 ${screenshotPath} stdout quiet alto`;
+    const expectedTesseractCall = `tesseract --psm 11 "${screenshotPath}" stdout quiet alto`;
     const mockedAltoXml = mockAltoXml("");
 
     (execSync as jest.Mock).mockImplementation(() => mockAltoXmlString(""));
@@ -122,8 +122,8 @@ describe("searchTextOnScreenshot", () => {
     //GIVEN
     const screenshotPath = "/path/to/screenshot";
 
-    const firstTesseractCall = `tesseract ${screenshotPath} stdout quiet alto`;
-    const secondTesseractCall = `tesseract --psm 11 ${screenshotPath} stdout quiet alto`;
+    const firstTesseractCall = `tesseract "${screenshotPath}" stdout quiet alto`;
+    const secondTesseractCall = `tesseract --psm 11 "${screenshotPath}" stdout quiet alto`;
 
     const expectedError = Error("bar");
     findTextMock
