@@ -4,12 +4,12 @@
   "scripts": {
     "audit": "npm audit fix && lerna-audit",
     "rebuild": "npm run clean && npm install && npm run build",
-    "clean": "lerna clean -y",
-    "postinstall": "lerna bootstrap",
+    "clean": "npx lerna clean -y",
+    "postinstall": "npx lerna bootstrap",
     "test": "jest",
-    "build": "lerna run build",
-    "lerna:publish": "lerna publish from-package --yes ",
-    "lerna:publish-next": "lerna publish --canary --include-merged-tags --preid next --dist-tag next --pre-dist-tag next --no-push --no-git-tag-version --no-git-reset --force-publish --yes"
+    "build": "npx lerna run build",
+    "lerna:publish": "npx lerna publish from-package --yes ",
+    "lerna:publish-next": "npx lerna publish --canary --include-merged-tags --preid next --dist-tag next --pre-dist-tag next --no-push --no-git-tag-version --no-git-reset --force-publish --yes"
   },
   "devDependencies": {
     "@types/jest": "25.2.1",
