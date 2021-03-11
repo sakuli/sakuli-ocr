@@ -50,6 +50,6 @@ printf "\n%s\n" "Pushing changes"
 git push --set-upstream origin release/${RELEASE_VERSION}
 
 printf "\n\n%s\n" "Verify successful builds on GitHub Actions before continuing."
-echo "To release the sakuli-enterprise-forwarder use following commands:"
+echo "To release sakuli/ocr use following commands:"
 printf "%s\n" "git tag -a v${RELEASE_VERSION} -m 'Release ${RELEASE_VERSION}'"
 echo "git push --tags"
