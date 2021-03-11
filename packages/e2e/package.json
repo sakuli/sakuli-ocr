@@ -14,7 +14,7 @@
     "@sakuli/cli": "next",
     "@sakuli/legacy-types": "next",
     "@sakuli/ocr": "2.4.0",
-    "typescript": "3.8.3",
-    "chromedriver": "87.0.0"
+    "typescript": "4.1.3",
+    "chromedriver": "89.0.0"
   }
 }
