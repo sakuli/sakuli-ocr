@@ -1,6 +1,6 @@
 {
   "name": "e2e",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "private": true,
   "description": "E2E test environment for @sakuli/ocr",
   "author": "Sven Hettwer <sven.hettwer@consol.de>",
@@ -11,10 +11,10 @@
     "test:e2e:debug": "node --inspect node_modules/@sakuli/cli/dist/index run e2e-suite"
   },
   "dependencies": {
-    "@sakuli/cli": "next",
-    "@sakuli/legacy-types": "next",
-    "@sakuli/ocr": "2.4.0",
-    "typescript": "4.1.3",
-    "chromedriver": "89.0.0"
+    "@sakuli/cli": "2.5.0",
+    "@sakuli/legacy-types": "2.5.0",
+    "@sakuli/ocr": "2.5.0",
+    "chromedriver": "89.0.0",
+    "typescript": "4.1.3"
   }
 }
