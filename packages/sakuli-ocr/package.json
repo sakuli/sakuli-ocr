@@ -1,6 +1,6 @@
 {
   "name": "@sakuli/ocr",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Enterprise OCR extension for Sakuli",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -30,8 +30,8 @@
   ],
   "dependencies": {
     "@nut-tree/nut-js": "1.6.0",
-    "@sakuli/core": "2.5.0",
-    "@sakuli/legacy": "2.5.0",
+    "@sakuli/core": "2.5.1",
+    "@sakuli/legacy": "2.5.1",
     "canvas": "2.6.1",
     "jsdom": "16.4.0"
   },
