@@ -1,9 +1,10 @@
 {
   "name": "@sakuli/ocr",
   "version": "2.5.1",
-  "description": "Enterprise OCR extension for Sakuli",
+  "description": "OCR extension for Sakuli",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "jest",
     "build": "tsc"
@@ -13,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com//sakuli/sakuli-ocr.git"
+    "url": "https://github.com/sakuli/sakuli-ocr.git"
   },
   "author": {
     "name": "Sven Hettwer",

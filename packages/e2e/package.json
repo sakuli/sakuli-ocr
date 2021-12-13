@@ -5,7 +5,7 @@
   "description": "E2E test environment for @sakuli/ocr",
   "author": "Sven Hettwer <sven.hettwer@consol.de>",
   "homepage": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "scripts": {
     "test:e2e": "sakuli run e2e-suite",
     "test:e2e:debug": "node --inspect node_modules/@sakuli/cli/dist/index run e2e-suite"
