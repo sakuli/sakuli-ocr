@@ -30,7 +30,6 @@ jobs:
           xvfb-run --server-args="-screen 0, 1920x1080x24" npm run test:e2e
         shell: bash
         env:
-          SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
           LOG_MODE: ci
       - name: save error screenshots on failure
         if: ${{ failure() }}
@@ -39,7 +38,7 @@ jobs:
           name: error-screenshots
           path: |
             ./packages/e2e/e2e-suite/_logs/_screenshots
-      - run: npx lerna run build:release
+      - run: npx lerna run build
       - run: npm run lerna:publish-next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

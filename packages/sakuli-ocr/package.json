@@ -5,11 +5,8 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "copy": "node move-files.js ./out ./dist",
-    "obfuscate": "javascript-obfuscator ./dist --output ./out --config obfuscate.js",
     "test": "jest",
-    "build": "tsc",
-    "build:release": "tsc && npm run obfuscate && npm run copy"
+    "build": "tsc"
   },
   "keywords": [
     "sakuliPreset"
@@ -43,7 +40,6 @@
     "@types/selenium-webdriver": "4.0.10",
     "fs-extra": "9.0.1",
     "husky": "4.2.5",
-    "javascript-obfuscator": "2.8.1",
     "jest": "27.2.0",
     "md5-file": "5.0.0",
     "mock-fs": "4.13.0",
