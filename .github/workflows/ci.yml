@@ -40,7 +40,6 @@ jobs:
           xvfb-run --server-args="-screen 0, 1920x1080x24" npm run test:e2e
         shell: bash
         env:
-          SAKULI_LICENSE_KEY: ${{ secrets.SAKULI_LICENSE_KEY }}
           LOG_MODE: ci
       - name: save error screenshots on failure
         if: ${{ failure() }}
