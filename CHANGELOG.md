@@ -1,8 +1,12 @@
 # Sakuli OCR change log
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file.#
 
-## v2.5.0
+## next
+
+- Open Source [(#18)](https://github.com/sakuli/sakuli-ocr/issues/18)
+
+## v2.5.1
 
 - security fixes
 
