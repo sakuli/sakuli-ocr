@@ -27,10 +27,10 @@
     "Cliff Le Van <cliff.le.van@consol.de>"
   ],
   "dependencies": {
-    "@nut-tree/nut-js": "1.6.0",
+    "@nut-tree/nut-js": "1.7.0",
     "@sakuli/core": "2.5.1",
     "@sakuli/legacy": "2.5.1",
-    "canvas": "2.6.1",
+    "canvas": "2.8.0",
     "jsdom": "16.4.0"
   },
   "devDependencies": {
