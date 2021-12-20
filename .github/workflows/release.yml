@@ -14,10 +14,10 @@ jobs:
         with:
           fetch-depth: "0"
       - run: git fetch origin +refs/tags/*:refs/tags/*
-      - name: Use Node.js 14
+      - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 16
           registry-url: https://registry.npmjs.org/
       - name: Install prerequisites
         run: sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
