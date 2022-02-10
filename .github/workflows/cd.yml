@@ -4,6 +4,9 @@ on:
   push:
     branches: [develop]
 
+env:
+  CHROMEDRIVER_FILEPATH: "/usr/local/share/chrome_driver/chromedriver"
+
 jobs:
   release-next:
     name: release-next

@@ -7,6 +7,9 @@ on:
       - "develop"
   pull_request:
 
+env:
+  CHROMEDRIVER_FILEPATH: "/usr/local/share/chrome_driver/chromedriver"
+
 jobs:
   test:
     name: test

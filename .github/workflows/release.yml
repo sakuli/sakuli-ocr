@@ -5,6 +5,9 @@ on:
     tags:
       - v*.*.*
 
+env:
+  CHROMEDRIVER_FILEPATH: "/usr/local/share/chrome_driver/chromedriver"
+
 jobs:
   release-version:
     name: release-version
