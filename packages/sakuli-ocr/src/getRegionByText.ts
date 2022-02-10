@@ -72,7 +72,7 @@ export function getRegionByText(
   function analyzeScreen(): ThenableRegion {
     try {
       return searchTextOnScreenshot(searchText, screenshotPath, searchRegion);
-    } catch (e) {
+    } catch (e: any) {
       testExecutionContext.logger.debug(
         `Issue while searching with plain screenshot: ${e.message}`
       );

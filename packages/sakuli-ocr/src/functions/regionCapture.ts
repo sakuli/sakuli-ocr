@@ -1,6 +1,5 @@
-import { screen } from "@nut-tree/nut-js";
+import { screen, Region as NutRegion } from "@nut-tree/nut-js";
 import { Region } from "@sakuli/legacy";
-import { Region as NutRegion } from "@nut-tree/nut-js/dist/lib/region.class";
 
 export async function regionCapture(
   selectedRegion: Region,
@@ -13,8 +12,5 @@ export async function regionCapture(
     (await selectedRegion.getH()) || 0
   );
 
-  const regionImage = await (<any>screen).vision.grabScreenRegion(
-    selectedNutRegion
-  );
-  await (<any>screen).vision.saveImage(regionImage, outputFilename);
+  await screen.captureRegion(outputFilename, selectedNutRegion);
 }
