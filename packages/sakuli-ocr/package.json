@@ -30,7 +30,7 @@
     "@nut-tree/nut-js": "2.0.1",
     "@sakuli/core": "2.5.2-next.48",
     "@sakuli/legacy": "2.5.2-next.48",
-    "canvas": "2.8.0",
+    "canvas": "2.9.0",
     "jsdom": "16.4.0"
   },
   "devDependencies": {
