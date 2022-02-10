@@ -7,19 +7,22 @@ on:
       - "develop"
   pull_request:
 
+env:
+  CHROMEDRIVER_FILEPATH: "/usr/local/share/chrome_driver/chromedriver"
+
 jobs:
   test:
     name: test
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4.0
       - name: Use Node.js 16
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.5.1
         with:
           node-version: 16
       - run: npm install
       - run: npx lerna run build
-      - run: npm t -- --runInBand --ci --bail
+      - run: npm t -- --runInBand --ci --bail --forceExit
   e2e-test:
     name: e2e-test
     runs-on: ubuntu-20.04
@@ -27,9 +30,9 @@ jobs:
       - name: Install prerequisites
         run: sudo apt-get install build-essential python libxtst-dev libpng++-dev libxt-dev libxinerama-dev tesseract-ocr tesseract-ocr-deu tesseract-ocr-eng xvfb
         shell: bash
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4.0
       - name: Use Node.js 16
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.5.1
         with:
           node-version: 16
       - run: npm install
@@ -43,7 +46,7 @@ jobs:
           LOG_MODE: ci
       - name: save error screenshots on failure
         if: ${{ failure() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: error-screenshot
           path: |

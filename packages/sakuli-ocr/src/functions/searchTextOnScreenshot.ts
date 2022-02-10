@@ -40,7 +40,7 @@ export function createSearchTextOnScreenshot(
         xOffset,
         yOffset
       );
-    } catch (e) {
+    } catch (e: any) {
       testExecutionContext.logger.debug(
         `Issue while searching for text with default psm: ${e.message}`
       );
