@@ -31,7 +31,7 @@
     "@sakuli/core": "2.5.2-next.48",
     "@sakuli/legacy": "2.5.2-next.48",
     "canvas": "2.9.0",
-    "jsdom": "16.4.0"
+    "jsdom": "19.0.0"
   },
   "devDependencies": {
     "@sakuli/legacy-types": "2.5.2-next.48",
@@ -43,7 +43,6 @@
     "jest": "27.2.0",
     "md5-file": "5.0.0",
     "mock-fs": "4.13.0",
-
     "sneer": "1.0.1",
     "ts-jest": "27.0.5",
     "typescript": "4.5.5"
