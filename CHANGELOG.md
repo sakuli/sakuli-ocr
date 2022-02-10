@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## next
 
+
+## v3.0.0
+
 - Open Source [(#18)](https://github.com/sakuli/sakuli-ocr/issues/18)
 
 ## v2.5.1

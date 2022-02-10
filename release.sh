@@ -16,9 +16,9 @@ RELEASE_VERSION=${1}
 [[ -z "${RELEASE_VERSION}" ]] && echo "ERROR: RELEASE_VERSION is empty" && help && exit 1
 [[ ! "${RELEASE_VERSION}" =~ $semver_pattern ]] && echo "ERROR: RELEASE_VERSION does not match the SemVer specification" && help && exit 1
 
-git fetch
-printf "\n%s\n" "Create new branch release/${RELEASE_VERSION}"
-git checkout -b release/${RELEASE_VERSION} origin/develop
+#git fetch
+#printf "\n%s\n" "Create new branch release/${RELEASE_VERSION}"
+#git checkout -b release/${RELEASE_VERSION} origin/develop
 
 printf "\n%s\n" "Run npm install"
 npm install
@@ -28,6 +28,7 @@ npx lerna version --no-git-tag-version --no-push -y --exact ${RELEASE_VERSION}
 printf "\n%s\n" "Update @sakuli package versions in @sakuli/ocr"
 npx lerna add @sakuli/legacy@${RELEASE_VERSION} -E --no-bootstrap --scope=@sakuli/ocr
 npx lerna add @sakuli/core@${RELEASE_VERSION} -E --no-bootstrap --scope=@sakuli/ocr
+npx lerna add @sakuli/legacy-types@${RELEASE_VERSION} -E --no-bootstrap --dev --scope=@sakuli/ocr
 
 printf "\n%s\n" "Update @sakuli package versions in e2e"
 npx lerna add @sakuli/cli@${RELEASE_VERSION} -E --scope=e2e --no-bootstrap
