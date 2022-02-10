@@ -10,12 +10,12 @@ jobs:
     name: release-version
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4.0
         with:
           fetch-depth: "0"
       - run: git fetch origin +refs/tags/*:refs/tags/*
       - name: Use Node.js 16
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.5.1
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
@@ -36,7 +36,7 @@ jobs:
           LOG_MODE: ci
       - name: save error screenshots on failure
         if: ${{ failure() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.3.1
         with:
           name: error-screenshots
           path: |
