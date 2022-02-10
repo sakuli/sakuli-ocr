@@ -19,7 +19,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npx lerna run build
-      - run: npm t -- --runInBand --ci --bail
+      - run: npm t -- --runInBand --ci --bail --forceExit
   e2e-test:
     name: e2e-test
     runs-on: ubuntu-20.04

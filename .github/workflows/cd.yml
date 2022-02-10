@@ -23,7 +23,7 @@ jobs:
         shell: bash
       - run: npm install
       - run: npx lerna run build
-      - run: npm t -- --runInBand --ci --bail
+      - run: npm t -- --runInBand --ci --bail --forceExit
       - name: execute E2E tests
         run: |
           cd ./packages/e2e
